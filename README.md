@@ -9,7 +9,7 @@ This repository serves as:
 
 ---
 
-## 📑 Topics Covered
+## Topics Covered
 -  **Basics**: Variables, Data Types, Operators  
 -  **Control Flow**: If-Else, Switch, Loops  
 -  **Arrays & Strings**  
