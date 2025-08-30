@@ -86,10 +86,12 @@ public class DataTypesAndLiterals{
             byte sd = 127;
             int ld = 256;
             ld = sd; //It is possible because we are assigning the byte sd value(127) to large ld 
-        //Casting - when the types converted explicitly then it means casting like assigning large data type values to small datat types
+            //Casting - when the types converted explicitly then it means casting like assigning large data type values to small datat types
             // sd = ld - It throws error because we are trying to assign integer value to byte value 
             // To overcome this 
             sd = (byte)ld; // -->In this we are converting the integer value to byte value
+
+
             */
     }
 }
