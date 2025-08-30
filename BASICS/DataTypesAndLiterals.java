@@ -58,10 +58,11 @@ public class DataTypesAndLiterals{
         int num2 = 999999999;
         long num3 = 99999999999999999l;
 
-        float num4 = 12.12f;  //we have to add f or F because in java the default real number type is Double so to convert double to float we have to add f
+        float num4 = 12.12f;  //we have to add f or F because in java the default decimal type is Double so we have to convert explicitly double to float 
+            for that we have to add f
         double num5 = 12.12; 
 
-        char letter = 'a'; //We have to place the character in single quotes
+        char letter = 'a'; // place the character in single quotes
 
         boolean tf = true;
 
