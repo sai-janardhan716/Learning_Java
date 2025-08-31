@@ -140,7 +140,6 @@ public class Operators {
      */
 
     System.out.println(6/3+4+2*8);
-
     /*Associativity (if precedence equal then it solves from left to right)
         6/3+4+2*8
         2+4+2*8
@@ -150,12 +149,11 @@ public class Operators {
     
     //for this precedence and associativity visit https://www.javatpoint.com/java-operator-precedence
     
-    //What if we perform addition for a string and number? (We can call it as Concatenation) 
-    System.out.println('a'+10); //it gives the result 107 because the character a has ASCII value and it is 97 so 97+10=107
-    System.out.println("a" + 10);//it gives a10 because here a is not a character is is string
+    //What if we perform addition for a string and number?
+    System.out.println('a'+10);     //it gives the result 107 because the character a has ASCII value and it is 97 so 97+10=107
+    System.out.println("a" + 10);   //it gives a10 because here a is not a character is is string
 
-
-    //Increment(adding 1) and decrement(subtracting 1)
+    //More Info about Unary operators (++,--)
     int c = 10;
     int d = 10;
     System.out.println(c++);    // first fetches c value(10) then increments(11) - Post Increment
@@ -169,5 +167,6 @@ public class Operators {
     -> Operators are symbols that tell the compiler to perform specific operations.
     -> They are the backbone of calculations, logic, and decision-making in Java.
 */
+
     }
 }
