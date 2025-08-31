@@ -18,8 +18,7 @@ This repository serves as:
 -  **Collections Framework**  
 -  **File Handling**  
 -  **Multithreading**  
--  **Java 8 Features**: Streams, Lambda Expressions  
--  **JDBC & Database Connectivity**  
+-  **Streams, Lambda Expressions**
 -  And more as I continue learning...  
 
 ---
