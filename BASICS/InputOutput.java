@@ -9,8 +9,8 @@ public class InputOutput {
 
     1) What is Input and Output in Java?
     -------------------------------------
-    -> Input  : Getting data from the user (keyboard, file, etc.).
-    -> Output : Displaying data to the user (console, file, etc.).
+    -> Input  : Getting data from the user (keyboard, file, etc)
+    -> Output : Displaying data to the user (console, file, etc)
 
     In Java:
     -> Input is usually done using the Scanner class.
@@ -27,7 +27,7 @@ public class InputOutput {
     2. System.out.println()
        -> Prints text and moves the cursor to the next line.
 
-    3. System.out.printf() / System.out.format()
+    3. System.out.printf() OR System.out.format()
        -> Allows formatted printing using format specifiers.
        -> Example: %d (integer), %f (float), %s (string), %c (char).
 
@@ -37,9 +37,9 @@ public class InputOutput {
     String name = "Sai";
     double price = 250.75;
 
-    System.out.print("Hello ");         // Output: Hello (cursor stays here)
-    System.out.println("World!");       // Output: World! (cursor moves next line)
-    System.out.printf("Age: %d\n", age); // Output: Age: 20
+    System.out.print("Hello ");              // Output: Hello (cursor stays here)
+    System.out.println("World!");            // Output: World! (cursor moves next line)
+    System.out.printf("Age: %d\n", age);     // Output: Age: 20
     System.out.format("Price: %.2f", price); // Output: Price: 250.75
 
     -----------------------------------------------------------
