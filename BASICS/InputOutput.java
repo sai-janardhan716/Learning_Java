@@ -42,7 +42,6 @@ public class InputOutput {
     System.out.printf("Age: %d\n", age);     // Output: Age: 20
     System.out.format("Price: %.2f", price); // Output: Price: 250.75
 
-    -----------------------------------------------------------
     3) Input in Java (Scanner Class)
     -----------------------------------------------------------
 
@@ -100,10 +99,9 @@ public class InputOutput {
     sc.nextLine()-> "Sai Janardhan"
 
     In Summary:
-    ------------------------------------
-    -> System.out handles OUTPUT (print, println, printf).
-    -> Scanner handles INPUT (nextInt, nextLine, etc.).
-    -> Together, they allow interactive console-based Java programs.
+    ---------------------------
+    -> System.out handles OUTPUT (print, println, printf)
+    -> Scanner handles INPUT (nextInt, nextLine, etc)
 
     */
 
