@@ -1,11 +1,12 @@
 package Learning_Java.BASICS;
+
 import java.util.Scanner;
+
+// // import java.util.Scanner;
 public class ifelseswitch {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
 /* 
-    Conditional Statements (if, else if, switch)
-    --------------------------------------------
 
     1) What are Conditional Statements?
     -----------------------------------
@@ -89,7 +90,6 @@ public class ifelseswitch {
     -> Works with:
     - int, byte, short, char
     - String
-    - Enum
 
     Syntax:
     switch (expression) {
@@ -99,7 +99,6 @@ public class ifelseswitch {
         case value2:
             // code block
             break;
-        ...
         default:
             // default code block
     }
@@ -205,5 +204,7 @@ public class ifelseswitch {
             case "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" -> System.out.println("Set the alarm at 7AM");
             default -> System.out.println("Enter a vaid day");
         }
+
+        sc.close();
     }
 }
