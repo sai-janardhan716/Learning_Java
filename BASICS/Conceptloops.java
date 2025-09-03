@@ -2,8 +2,7 @@ package Learning_Java.BASICS;
 // import java.util.Scanner;
 public class Conceptloops {
     public static void main(String[] args) {
-        /* 
-
+    /* 
         Loops in Java (for, while, do-while)
         ------------------------------------
 
@@ -11,7 +10,7 @@ public class Conceptloops {
         ------------------
         -> Loops in Java are used to execute a block of code repeatedly until a certain condition is met.
         -> They reduce redundancy by avoiding writing the same code multiple times.
-        -> Each repetition is called an **iteration**.
+        -> Each repetition is called an iteration.
 
         In short:
         -> Loops = Repetition with control.
@@ -63,8 +62,8 @@ public class Conceptloops {
 
         c) do-while Loop
         -----------------
-        -> Similar to while loop, but condition is checked **after** the loop body.
-        -> Ensures the loop runs **at least once**.
+        -> Similar to while loop, but condition is checked after the loop body.
+        -> Ensures the loop runs at least once.
 
         Syntax:
         do {
@@ -102,7 +101,7 @@ public class Conceptloops {
         -> while loop → condition-based, may run 0 times.
         -> do-while   → condition-based, runs at least once.
 
-        */
+    */
         
     }
 }
