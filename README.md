@@ -10,16 +10,63 @@ This repository serves as:
 ---
 
 ## Topics Covered
--  **Basics**: Variables, Data Types, Operators  
--  **Control Flow**: If-Else, Switch, Loops  
--  **Arrays & Strings**  
--  **Object-Oriented Programming**: Classes, Objects, Inheritance, Polymorphism, Abstraction, Encapsulation  
--  **Exception Handling**  
--  **Collections Framework**  
--  **File Handling**  
--  **Multithreading**  
--  **Streams, Lambda Expressions**
--  And more as I continue learning...  
+- **Basics**
+  - What is Java
+  - JVM, JDK, JRE
+  - Data Types. Variables, Type Casting
+  - Operators
+  - Input/Output in Java
+
+- **Control Flow**
+  - Conditional Statements
+  - Loops
+  - Jump Statements
+
+- **Arrays & Strings**
+  - Arrays
+  - String Basics]
+  - String Methods & Operations
+  - StringBuffer & StringBuilder
+
+- **Object-Oriented Programming (OOP)**
+  - Classes & Objects
+  - Methods
+  - Constructors
+  - Inheritance
+  - Polymorphism
+  - Abstraction
+  - Encapsulation
+
+- **Advanced OOP Concepts**
+  - Packages
+  - this & super keyword
+  - Static keyword
+  - Final keyword
+  - Inner Classes
+
+- **Exception Handling**
+  - Errors vs Exceptions
+  - try-catch blocks
+  - finally block
+  - throw and throws
+  - Custom Exceptions
+
+- **Java Collections Framework**
+  - Wrapper Classes
+  - ArrayList
+  - LinkedList
+  - HashMap & HashSet
+  - TreeMap & TreeSet
+  - Queue & Stack
+
+- **Other Important Concepts**
+  - File Handling 
+  - Multithreading (Thread class, Runnable interface)
+  - Synchronization in Threads
+  - Lambda Expressions (Java 8 feature)
+  - Streams API (Java 8 feature)
+  - Date & Time API (Java 8+)
+  - Generics
 
 ---
 
