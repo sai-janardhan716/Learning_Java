@@ -1,5 +1,3 @@
-package Learning_Java.BASICS;
-
 import java.util.Scanner;
 
 // // import java.util.Scanner;

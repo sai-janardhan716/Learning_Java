@@ -1,4 +1,3 @@
-package Learning_Java.BASICS;
 // import java.util.Scanner;
 public class Conceptloops {
     public static void main(String[] args) {

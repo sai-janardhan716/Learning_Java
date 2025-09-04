@@ -1,5 +1,3 @@
-package Learning_Java.BASICS;
-
 public class JumpStatements {
     public static void main(String[] args) {
     /*
