@@ -118,7 +118,15 @@ public class Conceptloops {
         5) factorial of a given number
         6) repeat 5 using while loop
         7) repeat 5 using for loop
-        6) sum of numbers occured in multiplication table of 2
+        8) sum of numbers occured in multiplication table of 2
+        9) Star Pattern
+
+            *
+            **
+            ***
+            ****
+            *****
+
      */
 
     //problem 1 - STAR Pattern
@@ -176,5 +184,13 @@ public class Conceptloops {
         //     result+=n*i;
         // }
         // System.out.println(result);
+
+        //Problem 9 - Star Pattern
+        // for(int i = 0;i<5;i++){
+        //     for(int j=0;j<=i;j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
     }
 }
