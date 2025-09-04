@@ -104,6 +104,22 @@ public class Conceptloops {
     */
     
     // Practice Problems
+    /*
+        1) STAR Pattern
+
+            *****
+            ****
+            ***
+            **
+            *
+        2) Sum of even numbers
+        3) multiplication table
+        4) multiplication table in reverse order
+        5) factorial of a given number
+        6) repeat 5 using while loop
+        7) repeat 5 using for loop
+        6) sum of numbers occured in multiplication table of 2
+     */
 
     //problem 1 - STAR Pattern
         // for(int i=4;i>=0;i--){
@@ -123,7 +139,7 @@ public class Conceptloops {
         // }
         // System.out.println(result);
 
-        //problem 3 - multiplication table\
+        //problem 3 - multiplication table
         // int n = 10;
         // for(int i = 1;i<=n;i++){
         //     System.out.println(n + " * " + i + " = "+n*i);
