@@ -5,8 +5,6 @@ public class Conceptloops {
         Loops in Java (for, while, do-while)
         ------------------------------------
 
-        1) What are Loops?
-        ------------------
         -> Loops in Java are used to execute a block of code repeatedly until a certain condition is met.
         -> They reduce redundancy by avoiding writing the same code multiple times.
         -> Each repetition is called an iteration.
@@ -14,8 +12,8 @@ public class Conceptloops {
         In short:
         -> Loops = Repetition with control.
 
-        2) Types of Loops in Java
-        --------------------------------------
+        Types of Loops in Java
+        ------------------------------
 
         a) for Loop
         ------------
@@ -35,6 +33,45 @@ public class Conceptloops {
         - Initialization    → int i = 1 (starting value)
         - Condition         → i <= 5 (loop runs while condition is true)
         - Update            → i++ (increment after each iteration)
+        
+        For-Each Loop - An enhanced for loop
+        ------------------------------------------
+        -> The enhanced for loop (also called for-each loop) is a simpler way to iterate over arrays or collections.  
+        -> It removes the need for using index values and makes the code more readable.  
+        -> Best used when you want to traverse all elements without modifying the original collection.  
+
+        Syntax:
+        -------
+        for (datatype variable : array) {
+            use variable inside loop
+        }
+
+        In short:
+        -> No need for initialization, condition, and increment manually.
+        -> Directly accesses each element in sequence.
+
+        Example
+        -----------
+        int[] numbers = {10, 20, 30, 40};
+
+        for(int num : numbers) {
+            System.out.println(num);
+        }
+
+        Output:
+        10
+        20
+        30
+        40
+
+        Explanation:
+        Each element of the array is assigned to `num` one by one.
+
+        Limitations of Enhanced For Loop
+        --------------------------------------
+        -> Cannot modify elements directly (only read).
+        -> No access to index of elements.
+        -> Not useful when partial traversal or custom step iteration is required.
 
 
         b) while Loop
@@ -81,24 +118,24 @@ public class Conceptloops {
         - Then condition is checked for next iteration.
 
 
-        3) Difference between for, while, and do-while
+        Difference between for, while, and do-while
         --------------------------------------
         -> for      : Use when number of iterations is known.
         -> while    : Use when number of iterations is unknown, condition-based.
         -> do-while : Use when code must run at least once regardless of condition.
 
-        4) Why Loops are Important?
-        --------------------------------------
+        Why Loops are Important?
+        --------------------------------
         -> Reduce code duplication.
         -> Help automate repetitive tasks.
         -> Make programs more efficient and readable.
 
-
         In summary:
         -----------
-        -> for loop   → fixed iterations.
-        -> while loop → condition-based, may run 0 times.
-        -> do-while   → condition-based, runs at least once.
+        -> for loop         - fixed iterations.
+        -> for each loop    - enhanced version of for loop
+        -> while loop       - condition-based, may run 0 times.
+        -> do-while         - condition-based, runs at least once.
 
     */
     }
