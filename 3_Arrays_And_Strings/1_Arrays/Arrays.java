@@ -87,5 +87,14 @@ public class Arrays {
          }
          System.out.println();
       }
+
+      /* 
+      Why are Arrays Important?
+      ------------------------------
+      -> Useful for storing multiple values together.  
+      -> Reduces code duplication.  
+      -> Makes iteration easy.  
+      -> Foundation for advanced data structures (like matrices, collections, etc). 
+      */
    }
 }
