@@ -69,6 +69,7 @@ public class Arrays {
 
       //Jagged Array - A jagged array is an array whose elements are arrays, possibly of different sizes.
       
+      //Iterating elements using for loop
       int nums[][] = new int[3][];
       nums[0] = new int[5];
       nums[1] = new int[3];
@@ -78,6 +79,8 @@ public class Arrays {
             nums[i][j] = (int)(Math.random()*100);
          }
       }
+
+      // Iterating elements using for each loop
       for(int i[] : nums){
          for (int j : i){
             System.out.print(j);
