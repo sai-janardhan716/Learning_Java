@@ -101,5 +101,19 @@ public class Practice {
         // }
         // System.out.println("Even count = "+evenCount);
         // System.out.println("Odd count = "+oddCount);
+
+        //Problem 9 - Print the diagonal elements of a 2D matrix.
+        // int[][] matrix = {
+        //     {1, 2, 3},
+        //     {4, 5, 6},
+        //     {7, 8, 9}
+        // };
+
+        // System.out.println("Diagonal elements:");
+        // for (int i = 0; i < matrix.length; i++) {
+        //     System.out.print(matrix[i][i] + " ");
+        // }
+
+        //Problem 10 - 
     }
 }
