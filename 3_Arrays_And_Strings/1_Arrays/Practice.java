@@ -1,3 +1,4 @@
+import java.util.*;
 public class Practice {
     public static void main(String[] args){
         //problem1 - creating an array (float) and add the values
@@ -114,6 +115,30 @@ public class Practice {
         //     System.out.print(matrix[i][i] + " ");
         // }
 
-        //Problem 10 - 
+        //Problem 10 - Sort an integer array in ascending order. USING BOTH INBUILT AND MANUAL METHOD
+
+        //Inbuilt method
+        // int[] arr = {5, 2, 8, 1, 9};
+        // Arrays.sort(arr);
+        // System.out.println("Sorted array in ascending order:");
+        // for (int num : arr) {
+        //     System.out.print(num + " ");
+        // }
+
+        //Manual Method
+        // int[] arr = {5, 2, 8, 1, 9};
+        // for (int i = 0; i < arr.length - 1; i++) {
+        //     for (int j = 0; j < arr.length - i - 1; j++) {
+        //         if (arr[j] > arr[j + 1]) {
+        //             int temp = arr[j];
+        //             arr[j] = arr[j + 1];
+        //             arr[j + 1] = temp;
+        //         }
+        //     }
+        // }
+        // System.out.println("Sorted array in ascending order:");
+        // for (int num : arr) {
+        //     System.out.print(num + " ");
+        // }
     }
 }
