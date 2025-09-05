@@ -87,5 +87,19 @@ public class Practice {
         // }else{
         //     System.out.println("not sorted");
         // }
+
+        //Problem 8 - Even and odd count in the array
+        // int[] arr = {1,2,3,4,5,6,7,8,9,10};
+        // int evenCount = 0;
+        // int oddCount = 0;
+        // for(int i : arr){
+        //     if(i%2 == 0){
+        //         evenCount++;
+        //     }else{
+        //         oddCount++;
+        //     }
+        // }
+        // System.out.println("Even count = "+evenCount);
+        // System.out.println("Odd count = "+oddCount);
     }
 }
