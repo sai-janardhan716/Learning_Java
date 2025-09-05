@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 public class Practice {
     public static void main(String[] args){
         //problem1 - creating an array (float) and add the values
