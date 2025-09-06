@@ -1,11 +1,11 @@
 public class Strings {
      public static void main(String[] args) {
           /*
-          -> A String in Java is a sequence of characters enclosed in double quotes (" ")
-          -> In java The string is not a data type, it is string class
-               Strings are immutable which means if we want to change a string then it
-               reates new object for that and gives that object address to the declared
-               variable
+               -> A String in Java is a sequence of characters enclosed in double quotes (" ")
+               -> In java The string is not a data type, it is string class
+                    Strings are immutable which means if we want to change a string then it
+                    reates new object for that and gives that object address to the declared
+                    variable
            */
           String name = new String("Hii");
           System.out.println(name);
@@ -59,18 +59,25 @@ public class Strings {
 
           // String Buffer - a class in java which provides more functionality for string
           /*
-          -> The main difference between the string and string buffer is, the string
-               buffer is mutable(which means, whenever we wants to change the string then it
-               modifies that object only, it doesn't create new object) and string is
-               immutable
-          -> It is mainly threads safe
+               -> The main difference between the string and string buffer is, the string
+                    buffer is mutable(which means, whenever we wants to change the string then it
+                    modifies that object only, it doesn't create new object) and string is
+                    immutable
+               -> It is mainly threads safe
            */
           StringBuffer sb = new StringBuffer("Gani");
-          sb.append(" gani"); // in this the value of string changes without creating new object
+          sb.append(" Alapati"); // in this the value of string changes without creating new object
           System.out.println(sb);
           StringBuffer sbs = new StringBuffer("Ganesh");
           String scsss = sbs.toString(); // Converting the StringBuffer to String
-          // StringBuilder - same as StringBuffer but the main difference is it is not
-          // threads safe
+
+          // StringBuilder - same as StringBuffer but the main difference is it is not threads safe
+          /*
+               -> It is also mutable
+               -> It is also Threads safr
+           */
+          StringBuilder sb2 = new StringBuilder("Janardhan");
+          sb.append(" Alapati");
+          System.out.println(sb2);
      }
 }
