@@ -8,6 +8,8 @@ public class Practice {
             3) Check if a string is a palindrome
             4) Count the occurrence of a character in a string
             5) Split a sentence into words
+            6) Remove all whitespace from a string
+            7) Find the largest word in a sentence
         */ 
 
         //Solutios
@@ -53,6 +55,21 @@ public class Practice {
                 for(String word : words) {
                     System.out.println(word);
                 }
+
+            6)  String str = "Java   is   fun   ";
+                String noSpaces = str.replaceAll("\\s+", "");
+                System.out.println("Original: '" + str + "'");
+                System.out.println("Without spaces: '" + noSpaces + "'");
+
+            7)  String sentence = "A G P S Sai Janardhan";
+                String[] words = sentence.split(" ");
+                String largest = "";
+                for(String word : words) {
+                    if(word.length() > largest.length()) {
+                        largest = word;
+                    }
+                }
+                System.out.println("Largest word: " + largest);
         */
     }
 }
