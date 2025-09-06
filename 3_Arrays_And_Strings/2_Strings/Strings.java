@@ -7,9 +7,9 @@ public class Strings {
                     reates new object for that and gives that object address to the declared
                     variable
            */
-          String name = new String("Hii");
+          String name = new String("Hii");  //String Declaration and initialisation Using Object Creation Method
           System.out.println(name);
-          String name1 = "ganesh";
+          String name1 = "ganesh";                   //String Declaration and initialisation Using Normal Method
           System.out.println(name1);
 
           // String Methods
