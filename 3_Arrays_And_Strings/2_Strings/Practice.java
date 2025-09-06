@@ -10,6 +10,7 @@ public class Practice {
             5) Split a sentence into words
             6) Remove all whitespace from a string
             7) Find the largest word in a sentence
+            8) Remove duplicate characters from a string
         */ 
 
         //Solutios
@@ -70,6 +71,17 @@ public class Practice {
                     }
                 }
                 System.out.println("Largest word: " + largest);
+            
+            8)  String str = "programming";
+                StringBuilder result = new StringBuilder();
+                for(int i=0; i<str.length(); i++) {
+                    char ch = str.charAt(i);
+                    if(result.indexOf(String.valueOf(ch)) == -1) {
+                        result.append(ch);
+                    }
+                }
+                System.out.println("Original: " + str);
+                System.out.println("Without duplicates: " + result);
         */
     }
 }
