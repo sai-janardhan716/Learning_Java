@@ -30,6 +30,22 @@ public class Practice4 {
                 s.display();
             }
         }
+    2)  class Calculator {
+            int add(int a, int b) { return a + b; }        --> In java one, if the content present in curly brasis as single line we can write the syntax like this
+            int subtract(int a, int b) { return a - b; }
+            int multiply(int a, int b) { return a * b; }
+            int divide(int a, int b) { return a / b; }
+        }
+
+        public class Main {
+            public static void main(String[] args) {
+                Calculator c = new Calculator();
+                System.out.println("Add: " + c.add(5, 3));
+                System.out.println("Subtract: " + c.subtract(5, 3));
+                System.out.println("Multiply: " + c.multiply(5, 3));
+                System.out.println("Divide: " + c.divide(6, 3));
+            }
+        }
 */
     }
 }
