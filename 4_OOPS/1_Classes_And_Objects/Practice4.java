@@ -76,6 +76,32 @@ public class Practice4 {
                 c.display();
             }
         }
+        5)class BankAccount {
+            int accountNumber;
+            double balance;
+            void deposit(double amount) {
+                balance +=amount;
+                System.out.println("Deposited: "+ amount + ", New Balance: "+ balance);
+            }
+            void withdraw(double amount) {
+                if(amount <= balance) {
+                    balance-= amount;
+                    System.out.println("Withdrew: " +amount + ", New Balance: " +balance);
+                }else {
+                    System.out.println("Insufficient balance!");
+                }
+            }
+        }
+        public class Main {
+            public static void main(String[] args) {
+                BankAccount b =new BankAccount();
+                b.accountNumber=12345;
+                b.balance = 1000;
+                b.deposit(500);
+                b.withdraw(300);
+                b.withdraw(1500);
+            }
+        }
 
 */
     }
