@@ -60,6 +60,22 @@ public class Practice4 {
                 System.out.println("Perimeter: " +r.perimeter());
             }
         }
+     4)  class Car {
+            String brand, model;
+            int year;
+            void display() {
+                System.out.println(year+ " "+brand +" " + model);
+            }
+        }
+        public class Main {
+            public static void main(String[] args) {
+                Car c =new Car();
+                c.brand= "Toyota";
+                c.model= "Supra";
+                c.year =2022;
+                c.display();
+            }
+        }
 
 */
     }
