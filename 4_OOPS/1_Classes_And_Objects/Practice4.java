@@ -18,14 +18,14 @@ public class Practice4 {
             int age;
             char grade;
             void display() {
-                System.out.println("Name: " + name + ", Age: " + age + ", Grade: " + grade);
+                System.out.println("Name: " +name + ", Age: "+ age + ", Grade: " + grade);
             }
         }
         public class Main {
             public static void main(String[] args) {
-                Student s = new Student();
+                Student s =new Student();
                 s.name = "Sai";
-                s.age = 21;
+                s.age =21;
                 s.grade = 'A';
                 s.display();
             }
@@ -39,13 +39,28 @@ public class Practice4 {
 
         public class Main {
             public static void main(String[] args) {
-                Calculator c = new Calculator();
+                Calculator c =new Calculator();
                 System.out.println("Add: " + c.add(5, 3));
                 System.out.println("Subtract: " + c.subtract(5, 3));
-                System.out.println("Multiply: " + c.multiply(5, 3));
-                System.out.println("Divide: " + c.divide(6, 3));
+                System.out.println("Multiply: "+ c.multiply(5, 3));
+                System.out.println("Divide: " +c.divide(6, 3));
             }
         }
+    3)  class Rectangle {
+            int length, breadth;
+            int area() { return length * breadth; }
+            int perimeter() { return 2 * (length + breadth); }
+        }
+        public class Main {
+            public static void main(String[] args) {
+                Rectangle r= new Rectangle();
+                r.length =10;
+                r.breadth= 5;
+                System.out.println("Area: " +r.area());
+                System.out.println("Perimeter: " +r.perimeter());
+            }
+        }
+
 */
     }
 }
