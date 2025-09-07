@@ -7,7 +7,7 @@
     -> While Object Oriented Programming is about to creating objects that contains both data and methods.
     -> The Object Oriented Programming use objects as the primary source to implement the code.
     -> The Object Oriented Programming aims to implement the real world entities and provides the clear structure 
-    for the programs.
+       for the programs.
 */
 
 /*
@@ -40,7 +40,7 @@
                 System.out.println("Hello, Janardhan");
             }
         }
- */
+*/
 
 /*
     Objects in Java
