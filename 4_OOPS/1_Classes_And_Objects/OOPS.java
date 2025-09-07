@@ -64,3 +64,10 @@ public class OOPS {
         obj.add(1,2); // --> Calling the method by using object
     }
 }
+/*
+    Important Notes
+    ------------------
+    -> A class can have multiple objects.
+    -> Objects store data in their own separate memory.
+    -> Methods of a class can be accessed through its objects.
+*/
