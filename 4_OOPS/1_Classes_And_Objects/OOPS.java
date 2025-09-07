@@ -1,5 +1,7 @@
 
 /*
+    What is OOPS in Java?
+    ----------------------
     -> Java is purely OBJECT ORIENTED PROGRAMMING
     -> Basically a Procedural Oriented Programming is about writing procedures, methods to perform operations. 
     -> While Object Oriented Programming is about to creating objects that contains both data and methods.
@@ -21,7 +23,7 @@
 
 /*
     Classes in Java
-    -------------------
+    ----------------
     -> A class is a user-defined blueprint or prototype.
     -> It contains:
         - Fields (variables, data members)
@@ -47,7 +49,7 @@
     -> Created using the `new` keyword.
     Example:
         ClassName obj = new ClassName();
- */
+*/
 
 //Example
 class Calculator {
