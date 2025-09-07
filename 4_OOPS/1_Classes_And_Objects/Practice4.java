@@ -102,7 +102,6 @@ public class Practice4 {
                 b.withdraw(1500);
             }
         }
-
 */
     }
 }
