@@ -27,6 +27,23 @@ public class Practice {
                 System.out.println("Factorial of 5: " + Factorial.factorial(5));
             }
         }
+
+        2) Check if a number is prime
+        class IsPrime {
+            static boolean isPrime(int n) {
+                if(n <= 1) return false;
+                for(int i = 2; i <= Math.sqrt(n); i++) {
+                    if(n % i == 0) return false;
+                }
+                return true;
+            }
+        }
+        public class Main {
+            public static void main(String[] args) {
+                System.out.println("Is 7 prime? " + IsPrime.isPrime(7));
+                System.out.println("Is 10 prime? " + IsPrime.isPrime(10));
+            }
+        }
     */
     }
 }
