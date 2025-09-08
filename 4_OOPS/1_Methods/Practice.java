@@ -44,6 +44,18 @@ public class Practice {
                 System.out.println("Is 10 prime? " + IsPrime.isPrime(10));
             }
         }
+
+        3) Reverse a string
+        class StringUtils {
+            static String reverse(String str) {
+                return new StringBuilder(str).reverse().toString();
+            }
+        }
+        public class Main {
+            public static void main(String[] args) {
+                System.out.println("Reversed: " + StringUtils.reverse("Sai"));
+            }
+        }
     */
     }
 }
