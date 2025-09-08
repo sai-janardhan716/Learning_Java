@@ -60,6 +60,13 @@ public class Methods {
         System.out.println("Hello, " + name);
     }
 
+    Return Type
+    --------------
+    -> If method returns a value -> specify the type (int, double, String, etc.)
+    -> If method does not return -> use 'void'. 
+    (It means if you want the function gives output text by using system.out.print then you can use voi
+    Else you want to return the answer you can use the particular data type)
+
     */
 
     }
