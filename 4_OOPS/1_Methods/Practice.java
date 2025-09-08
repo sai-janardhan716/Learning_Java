@@ -56,6 +56,23 @@ public class Practice {
                 System.out.println("Reversed: " + StringUtils.reverse("Sai"));
             }
         }
+
+        4) Sum of all elements in an array
+        class SumArray {
+            static int sum(int[] arr) {
+                int total = 0;
+                for(int num : arr) {
+                    total += num;
+                }
+                return total;
+            }
+        }
+        public class Main {
+            public static void main(String[] args) {
+                int[] arr = {1, 2, 3, 4, 5};
+                System.out.println("Sum: " + SumArray.sum(arr));
+            }
+        }
     */
     }
 }
