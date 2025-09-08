@@ -73,6 +73,23 @@ public class Practice {
                 System.out.println("Sum: " + SumArray.sum(arr));
             }
         }
+
+        Find maximum element in an array
+        class MaxArray {
+            static int max(int[] arr) {
+                int max = arr[0];
+                for(int num : arr) {
+                    if(num > max) max = num;
+                }
+                return max;
+            }
+        }
+        public class Main {
+            public static void main(String[] args) {
+                int[] arr = {10, 50, 20, 70, 40};
+                System.out.println("Maximum: " + MaxArray.max(arr));
+            }
+        }
     */
     }
 }
