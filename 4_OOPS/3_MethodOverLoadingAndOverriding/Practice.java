@@ -37,6 +37,25 @@ public class Practice {
             return a * b;
         }
     }
+    
+    2) class Vehicle {
+        void start() {
+            System.out.println("Vehicle is starting...");
+        }
+    }
+    class Car extends Vehicle {
+        @Override
+        void start() {
+            System.out.println("Car starts with a key ignition.");
+        }
+    }
+    class Bike extends Vehicle {
+        @Override
+        void start() {
+            System.out.println("Bike starts with a self-start button.");
+        }
+    }
+
 
     */
 
