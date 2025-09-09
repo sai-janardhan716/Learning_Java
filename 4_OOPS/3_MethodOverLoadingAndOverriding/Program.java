@@ -39,5 +39,52 @@ public class Program {
             }
         }    
     */
+
+    /*
+        Method Overriding
+        ------------------
+        Method Overriding in Java occurs when a subclass provides its own implementation of a method that is already defined in its parent class.
+        It is a runtime polymorphism concept.
+
+        Key Points:
+        -> Same method name.
+        -> Same parameter list (number & type).
+        -> Must have inheritance (parent-child relationship).
+        -> Return type must be same or covariant (child type).
+        -> Cannot override final, static, or private methods.
+        -> Resolved at runtime.
+
+        Example:
+        class Animal {
+            void sound() {
+                System.out.println("Animals make sound");
+            }
+        }
+
+        class Dog extends Animal {
+            // Overriding the parent class method
+            @Override
+            void sound() {
+                System.out.println("Dog barks");
+            }
+        }
+
+        class Cat extends Animal {
+            @Override
+            void sound() {
+                System.out.println("Cat meows");
+            }
+        }
+
+        public class Main {
+            public static void main(String[] args) {
+                Animal a1 = new Dog();  // Runtime Polymorphism
+                Animal a2 = new Cat();
+
+                a1.sound();  // Dog barks
+                a2.sound();  // Cat meows
+            }
+        }
+     */
     }
 }
