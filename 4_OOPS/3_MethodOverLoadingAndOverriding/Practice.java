@@ -97,6 +97,26 @@ public class Practice {
         }
     }
 
+    5) class Demo {
+        void display(int a) {
+            System.out.println("Display with int: " + a);
+        }
+        void display(String s) {
+            System.out.println("Display with String: " + s);
+        }
+    }
+    class Parent {
+        void show() {
+            System.out.println("Parent class method");
+        }
+    }
+    class Child extends Parent {
+        @Override
+        void show() {
+            System.out.println("Child class overridden method");
+        }
+    }
+
     */
 
     }
