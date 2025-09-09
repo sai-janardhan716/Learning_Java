@@ -68,6 +68,35 @@ public class Practice {
         }
     }
 
+    4) class Shape {
+        void area() {
+            System.out.println("Area is undefined for generic shape.");
+        }
+    }
+    class Circle extends Shape {
+        double radius;
+        Circle(double radius) {
+            this.radius = radius;
+        }
+        @Override
+        void area() {
+            double result = Math.PI * radius * radius;
+            System.out.println("Area of Circle: " + result);
+        }
+    }
+    class Rectangle extends Shape {
+        double length, width;
+        Rectangle(double length, double width) {
+            this.length = length;
+            this.width = width;
+        }
+        @Override
+        void area() {
+            double result = length * width;
+            System.out.println("Area of Rectangle: " + result);
+        }
+    }
+
     */
 
     }
