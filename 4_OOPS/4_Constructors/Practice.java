@@ -33,8 +33,8 @@ public class Practice {
             String author;
 
             Book() {
-                title = "Know yourself";
-                author= "Sai Janardhan";
+                title = "Unknown";
+                author= "Unknown";
             }
 
             Book(String t, String a) {
@@ -119,6 +119,37 @@ public class Practice {
                 System.out.println("Movie: " + title + ", Year: " + year + ", Rating: " + rating);
             }
         }
+        //for Problem 1
+        Book b1 = new Book();
+        Book b2 = new Book("Know Yourself", "Sai Janardhan");
+        b1.display();
+        b2.display();
+
+        //for Problem 2
+        Rectangle r1 = new Rectangle(8, 10);
+        System.out.println("Area of Rectangle: " + r1.area());
+
+        // Problem 3
+        Employee e1 = new Employee();
+        Employee e2 = new Employee("Sai");
+        Employee e3 = new Employee("Janardhan", 800000);
+        e1.display();
+        e2.display();
+        e3.display();
+
+        // Problem 4
+        Laptop l1 = new Laptop("Victus", 60000);
+        l1.display();
+
+        // Problem 5
+        Movie m1 = new Movie();
+        Movie m2 = new Movie("F1");
+        Movie m3 = new Movie("Ford V Ferrari", 2014);
+        Movie m4 = new Movie("Loki", 2008, 9.0);
+        m1.display();
+        m2.display();
+        m3.display();
+        m4.display();
         */
     }
 }
