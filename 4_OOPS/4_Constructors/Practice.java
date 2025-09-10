@@ -28,7 +28,24 @@ public class Practice {
 
         //Solutions
         /*
-         
+        1) class Book {
+            String title;
+            String author;
+
+            Book() {
+                title = "Know yourself";
+                author= "Sai Janardhan";
+            }
+
+            Book(String t, String a) {
+                title =t;
+                author = a;
+            }
+
+            void display() {
+                System.out.println("Book: " + title + " by " +author);
+            }
+        }
         */
     }
 }
