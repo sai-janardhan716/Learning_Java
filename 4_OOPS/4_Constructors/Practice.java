@@ -77,6 +77,18 @@ public class Practice {
                 System.out.println("Employee: " + name + ", Salary: " + salary);
             }
         }
+
+        4) class Laptop {
+            String brand;
+            double price;
+            Laptop(String b, double p) {
+                brand = b;
+                price = p;
+            }
+            void display() {
+                System.out.println("Laptop: " + brand + ", Price: " + price);
+            }
+        }
         */
     }
 }
