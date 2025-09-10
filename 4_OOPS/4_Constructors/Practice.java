@@ -46,6 +46,17 @@ public class Practice {
                 System.out.println("Book: " + title + " by " +author);
             }
         }
+        
+        2) class Rectangle {
+            int len, wid;
+            Rectangle(int l, int w) {
+                len=l;
+                wid= w;
+            }
+            int area() {
+                return length*width;
+            }
+        }
         */
     }
 }
