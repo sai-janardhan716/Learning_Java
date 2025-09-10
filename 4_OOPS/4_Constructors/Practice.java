@@ -89,6 +89,36 @@ public class Practice {
                 System.out.println("Laptop: " + brand + ", Price: " + price);
             }
         }
+
+        5) class Movie {
+            String title;
+            int year;
+            double rating;
+
+            Movie() {
+                title = "Unknown";
+                year = 0;
+                rating = 0.0;
+            }
+            Movie(String t) {
+                title = t;
+                year = 0;
+                rating = 0.0;
+            }
+            Movie(String t, int y) {
+                title = t;
+                year = y;
+                rating = 0.0;
+            }
+            Movie(String t, int y, double r) {
+                title = t;
+                year = y;
+                rating = r;
+            }
+            void display() {
+                System.out.println("Movie: " + title + ", Year: " + year + ", Rating: " + rating);
+            }
+        }
         */
     }
 }
