@@ -57,6 +57,26 @@ public class Practice {
                 return length*width;
             }
         }
+
+        3) class Employee {
+            String name;
+            double salary;
+            Employee() {
+                name = "Not Assigned";
+                salary = 0.0;
+            }
+            Employee(String n) {
+                name = n;
+                salary = 30000;
+            }
+            Employee(String n, double s) {
+                name = n;
+                salary = s;
+            }
+            void display() {
+                System.out.println("Employee: " + name + ", Salary: " + salary);
+            }
+        }
         */
     }
 }
