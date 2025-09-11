@@ -43,6 +43,53 @@ public class Practice {
                 System.out.println("Bike starts with kick");
             }
         }
+
+        3) class Person{
+            String name;
+            int age;
+            void display(){
+                System.out.println("Name: " + name + ", Age: " + age);
+            }
+        }
+
+        class Student extends Person {
+            int rollNumber;
+            void displayStudent(){
+                System.out.println("Roll Number: " + rollNumber);
+                display();
+            }
+        }
+
+        class Teacher extends Person{
+            String subject;
+            void displayTeacher(){
+                System.out.println("Subject: " + subject);
+                display();
+            }
+        }
+        */
+
+        /*
+            Dog d = new Dog();
+            Cat c = new Cat();
+            d.sound();
+            c.sound();
+
+            Car c = new Car();
+            Bike b = new Bike();
+            c.start();
+            b.start();
+
+            Student s = new Student();
+            s.name = "Sai Janardhan";
+            s.age = 21;
+            s.rollNumber = 99220040008;
+            s.displayStudent();
+            Teacher t = new Teacher();
+            t.name = "Teacher";
+            t.age = 45;
+            t.subject = "Math";
+            t.displayTeacher();
         */
     }
 }
