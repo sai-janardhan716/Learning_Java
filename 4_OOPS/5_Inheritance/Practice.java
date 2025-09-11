@@ -12,103 +12,103 @@ public class Practice {
 
         //Solutions
         /* 
-        !) class Animal{
-            void sound(){
-                System.out.println("Animals make sounds");
+            !) class Animal{
+                void sound(){
+                    System.out.println("Animals make sounds");
+                }
             }
-        }
-        class Dog extends Animal{
-            void sound() {
-                System.out.println("Dog barks");
+            class Dog extends Animal{
+                void sound() {
+                    System.out.println("Dog barks");
+                }
             }
-        }
-        class Cat extends Animal{
-            void sound(){
-                System.out.println("Cat meows");
+            class Cat extends Animal{
+                void sound(){
+                    System.out.println("Cat meows");
+                }
             }
-        }
 
-        2) class Vehicle{
-            void start(){
-                System.out.println("Vehicle is starting............");
+            2) class Vehicle{
+                void start(){
+                    System.out.println("Vehicle is starting............");
+                }
             }
-        }
-        class Car extends Vehicle{
-            void start(){
-                System.out.println("Car starts with key");
+            class Car extends Vehicle{
+                void start(){
+                    System.out.println("Car starts with key");
+                }
             }
-        }
-        class Bike extends Vehicle{
-            void start(){
-                System.out.println("Bike starts with kick");
+            class Bike extends Vehicle{
+                void start(){
+                    System.out.println("Bike starts with kick");
+                }
             }
-        }
 
-        3) class Person{
-            String name;
-            int age;
-            void display(){
-                System.out.println("Name: " + name + ", Age: " + age);
+            3) class Person{
+                String name;
+                int age;
+                void display(){
+                    System.out.println("Name: " + name + ", Age: " + age);
+                }
             }
-        }
 
-        class Student extends Person {
-            int rollNumber;
-            void displayStudent(){
-                System.out.println("Roll Number: " + rollNumber);
-                display();
+            class Student extends Person {
+                int rollNumber;
+                void displayStudent(){
+                    System.out.println("Roll Number: " + rollNumber);
+                    display();
+                }
             }
-        }
 
-        class Teacher extends Person{
-            String subject;
-            void displayTeacher(){
-                System.out.println("Subject: " + subject);
-                display();
+            class Teacher extends Person{
+                String subject;
+                void displayTeacher(){
+                    System.out.println("Subject: " + subject);
+                    display();
+                }
             }
-        }
 
-        4) class Shape{
-            void area(){
-                System.out.println("Calculating area............");
+            4) class Shape{
+                void area(){
+                    System.out.println("Calculating area............");
+                }
             }
-        }
 
-        class Circle extends Shape{
-            double radius;
-            Circle(double r){
-                radius = r;
+            class Circle extends Shape{
+                double radius;
+                Circle(double r){
+                    radius = r;
+                }
+                void area(){
+                    System.out.println("Circle Area = " + (3.14 * radius * radius));
+                }
             }
-            void area(){
-                System.out.println("Circle Area = " + (3.14 * radius * radius));
+            class Rectangle extends Shape{
+                int length, breadth;
+                Rectangle(int l, int b){
+                    length = l;
+                    breadth = b;
+                }
+                void area(){
+                    System.out.println("Rectangle Area = " + (length * breadth));
+                }
             }
-        }
-        class Rectangle extends Shape{
-            int length, breadth;
-            Rectangle(int l, int b){
-                length = l;
-                breadth = b;
-            }
-            void area(){
-                System.out.println("Rectangle Area = " + (length * breadth));
-            }
-        }
 
-        5) class Employee{
-            void work(){
-                System.out.println("Employee works");
+            5) class Employee{
+                void work(){
+                    System.out.println("Employee works");
+                }
             }
-        }
-        class Manager extends Employee {
-            void work(){
-                System.out.println("Manager manages the team");
+            class Manager extends Employee {
+                void work(){
+                    System.out.println("Manager manages the team");
+                }
             }
-        }
-        class Developer extends Employee{
-            void work(){
-                System.out.println("Developer writes code");
+            class Developer extends Employee{
+                void work(){
+                    System.out.println("Developer writes code");
+                }
             }
-        }
         */
 
         /*
