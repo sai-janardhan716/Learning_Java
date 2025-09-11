@@ -67,6 +67,32 @@ public class Practice {
                 display();
             }
         }
+
+        4) class Shape{
+            void area(){
+                System.out.println("Calculating area............");
+            }
+        }
+
+        class Circle extends Shape{
+            double radius;
+            Circle(double r){
+                radius = r;
+            }
+            void area(){
+                System.out.println("Circle Area = " + (3.14 * radius * radius));
+            }
+        }
+        class Rectangle extends Shape{
+            int length, breadth;
+            Rectangle(int l, int b){
+                length = l;
+                breadth = b;
+            }
+            void area(){
+                System.out.println("Rectangle Area = " + (length * breadth));
+            }
+        }
         */
 
         /*
@@ -90,6 +116,11 @@ public class Practice {
             t.age = 45;
             t.subject = "Math";
             t.displayTeacher();
+
+            Circle c =new Circle(5);
+            Rectangle r = new Rectangle(4, 6);
+            c.area();
+            r.area();
         */
     }
 }
