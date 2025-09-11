@@ -12,19 +12,35 @@ public class Practice {
 
         //Solutions
         /* 
-        !) class Animal {
-            void sound() {
+        !) class Animal{
+            void sound(){
                 System.out.println("Animals make sounds");
             }
         }
-        class Dog extends Animal {
+        class Dog extends Animal{
             void sound() {
                 System.out.println("Dog barks");
             }
         }
-        class Cat extends Animal {
-            void sound() {
+        class Cat extends Animal{
+            void sound(){
                 System.out.println("Cat meows");
+            }
+        }
+
+        2) class Vehicle{
+            void start(){
+                System.out.println("Vehicle is starting............");
+            }
+        }
+        class Car extends Vehicle{
+            void start(){
+                System.out.println("Car starts with key");
+            }
+        }
+        class Bike extends Vehicle{
+            void start(){
+                System.out.println("Bike starts with kick");
             }
         }
         */
