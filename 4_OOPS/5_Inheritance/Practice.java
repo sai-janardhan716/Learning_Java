@@ -93,6 +93,22 @@ public class Practice {
                 System.out.println("Rectangle Area = " + (length * breadth));
             }
         }
+
+        5) class Employee{
+            void work(){
+                System.out.println("Employee works");
+            }
+        }
+        class Manager extends Employee {
+            void work(){
+                System.out.println("Manager manages the team");
+            }
+        }
+        class Developer extends Employee{
+            void work(){
+                System.out.println("Developer writes code");
+            }
+        }
         */
 
         /*
@@ -121,6 +137,11 @@ public class Practice {
             Rectangle r = new Rectangle(4, 6);
             c.area();
             r.area();
+
+            Manager m=new Manager();
+            Developer d=new Developer();
+            m.work();
+            d.work();
         */
     }
 }
