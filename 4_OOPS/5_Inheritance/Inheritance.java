@@ -2,7 +2,28 @@
 // In Java This will be done by using "extends" keyword
 // SuperClass/Parentclass :- The class being inherit
 // SubClass/ChildClass    :- The class which inherits from ParentClass/SuperClass
+// It promotes code reusability and helps in building relationships between classes.
 
+/*
+    Syntax:
+        class Parent {
+            // fields and methods
+        }
+
+        class Child extends Parent {
+            // additional fields and methods
+        }
+*/
+
+/* 
+    Types of Inheritance in Java:
+    ---------------------------------
+    1) Single Inheritance = A class inherits from one parent class.
+    2) Multilevel Inheritance = A class inherits from another class, which in turn is inherited by another class.
+    3) Hierarchical Inheritance = Multiple classes inherit from the same parent class.
+    Note: Java does NOT support multiple inheritance using classes (to avoid ambiguity). But it can be achieved using interfaces.
+    Ambiguity -> means confusion — when the compiler cannot decide which method/variable to use because there are multiple possible options.
+*/
 class Calc{
     public int add(int ... args){
         int sumResult = 0;
