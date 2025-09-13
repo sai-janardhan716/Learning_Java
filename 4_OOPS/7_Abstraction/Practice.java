@@ -29,6 +29,14 @@ public class Practice {
                 System.out.println("Bike engine starts with kick");
             }
         }
+
+    */
+
+    /* 
+    1)  Vehicle car=new Car();
+        Vehicle bike=new Bike();
+        car.startEngine();
+        bike.startEngine();
     */
 
     }
