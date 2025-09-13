@@ -35,3 +35,27 @@ public class Main{
     }
 }
 */
+
+/*
+Interface:-
+------------
+-> A completely abstract type that defines a contract of methods.
+-> Methods are public abstract by default (Java 8+ allows default and static methods).
+-> A class implements an interface and provides the method bodies.
+-> Supports multiple inheritance (a class can implement many interfaces).
+
+interface Animal{
+    void sound();             // public abstract by default
+}
+class Dog implements Animal{
+    public void sound() {
+        System.out.println("Dog barks");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Dog();
+        a.sound();            // Dog barks
+    }
+}
+*/
