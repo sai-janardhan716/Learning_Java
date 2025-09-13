@@ -29,6 +29,20 @@ public class Practice {
                 System.out.println("Bike engine starts with kick");
             }
         }
+        
+        2) interface Shape{
+            double area();
+        }
+        class Circle implements Shape{
+            double radius;
+            Circle(double r){} radius= r; }
+            public double area(){ return 3.14* radius*radius; }
+        }
+        class Rectangle implements Shape{
+            double length, breadth;
+            Rectangle(double l, double b){ length = l; breadth = b; }
+            public double area(){ return length *breadth; }
+        }
 
     */
 
@@ -37,6 +51,11 @@ public class Practice {
         Vehicle bike=new Bike();
         car.startEngine();
         bike.startEngine();
+
+    2)  Shape c =new Circle(5);
+        Shape r =new Rectangle(4, 6);
+        System.out.println("Circle area: " + c.area());
+        System.out.println("Rectangle area: " + r.area());
     */
 
     }
