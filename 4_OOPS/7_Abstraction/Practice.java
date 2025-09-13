@@ -53,6 +53,21 @@ public class Practice {
         class Piano implements Playable{
             public void play(){System.out.println("Playing Piano");}
         }
+
+        4) abstract class Employee {
+            abstract double calculateSalary();
+        }
+        class FullTimeEmployee extends Employee {
+            double monthlySalary;
+            FullTimeEmployee(double salary) { monthlySalary = salary; }
+            double calculateSalary() { return monthlySalary; }
+        }
+        class PartTimeEmployee extends Employee {
+            double hourlyRate;
+            int hoursWorked;
+            PartTimeEmployee(double rate, int hours) { hourlyRate = rate; hoursWorked = hours; }
+            double calculateSalary() { return hourlyRate * hoursWorked; }
+        }
     */
 
     /* 
@@ -70,6 +85,11 @@ public class Practice {
         Playable p = new Piano();
         g.play();
         p.play();
+
+    4)  Employee ft = new FullTimeEmployee(50000);
+        Employee pt = new PartTimeEmployee(200, 100);
+        System.out.println("Full-time salary: " + ft.calculateSalary());
+        System.out.println("Part-time salary: " + pt.calculateSalary());
     */
 
     }
