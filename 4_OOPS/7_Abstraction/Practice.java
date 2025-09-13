@@ -44,6 +44,15 @@ public class Practice {
             public double area(){ return length *breadth; }
         }
 
+        3) interface Playable{
+            void play();
+        }
+        class Guitar implements Playable{
+            public void play(){System.out.println("Playing Guitar");}
+        }
+        class Piano implements Playable{
+            public void play(){System.out.println("Playing Piano");}
+        }
     */
 
     /* 
@@ -56,6 +65,11 @@ public class Practice {
         Shape r =new Rectangle(4, 6);
         System.out.println("Circle area: " + c.area());
         System.out.println("Rectangle area: " + r.area());
+
+    3)  Playable g = new Guitar();
+        Playable p = new Piano();
+        g.play();
+        p.play();
     */
 
     }
