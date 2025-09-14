@@ -95,6 +95,32 @@ public class Practice {
             }
         }
     }
+
+    3) class Car{
+        private String brand;
+        private int speed;
+        Car(String brand) {
+            this.brand = brand;
+            this.speed = 0;
+        }
+        public String getBrand(){
+            return brand;
+        }
+        public int getSpeed(){
+            return speed;
+        }
+        public void accelerate(int increment){
+            if (increment > 0){
+                speed += increment;
+            }
+        }
+        public void brake(int decrement){
+            if (decrement > 0) {
+                speed -= decrement;
+                if (speed < 0) speed = 0;
+            }
+        }
+    }
     */
     }
 }
