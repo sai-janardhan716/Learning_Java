@@ -42,7 +42,7 @@ public class Practice {
 
     //Solutions
     /*
-        class BankAccount{
+    1) class BankAccount{
         private String accountNumber;
         private double balance;
         BankAccount(String accountNumber, double balance){
