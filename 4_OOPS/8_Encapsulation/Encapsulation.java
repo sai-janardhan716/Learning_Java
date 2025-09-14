@@ -50,7 +50,6 @@ public class Encapsulation {
     protected : Accessible within the same package and by subclasses.
     public    : Accessible from everywhere.
 
-    
     Best Practices:
     ---------------
     1) Always keep instance variables private.
