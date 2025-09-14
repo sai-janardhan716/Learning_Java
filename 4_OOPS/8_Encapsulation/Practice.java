@@ -69,6 +69,32 @@ public class Practice {
             }
         }
     }
+
+    2) class Employee{
+        private String name;
+        private double salary;
+        public void setName(String name){
+            if (name != null && !name.isEmpty()){
+                this.name = name;
+            }
+        }
+        public void setSalary(double salary){
+            if (salary >= 0) {
+                this.salary = salary;
+            }
+        }
+        public String getName(){
+            return name;
+        }
+        public double getSalary(){
+            return salary;
+        }
+        public void increaseSalary(double percent){
+            if (percent > 0) {
+                salary += salary * (percent / 100);
+            }
+        }
+    }
     */
     }
 }
