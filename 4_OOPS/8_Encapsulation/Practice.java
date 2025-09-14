@@ -155,6 +155,32 @@ public class Practice {
             }
         }
     }
+
+    5) class StudentReport{
+        private String studentName;
+        private int marks;
+        StudentReport(String studentName, int marks){
+            this.studentName = studentName;
+            setMarks(marks);
+        }
+        public String getStudentName(){
+            return studentName;
+        }
+        public int getMarks(){
+            return marks;
+        }
+        public void setMarks(int marks){
+            if (marks >= 0 && marks <= 100){
+                this.marks = marks;
+            }
+        }
+        public String grade(){
+            if (marks >= 75) return "A";
+            else if (marks >= 60) return "B";
+            else if (marks >= 40) return "C";
+            else return "Fail";
+        }
+    }
     */
     }
 }
