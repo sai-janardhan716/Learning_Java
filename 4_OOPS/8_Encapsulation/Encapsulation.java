@@ -34,3 +34,26 @@ public class Encapsulation {
         acc1.setPassword(234158);
     }
 }
+
+/*
+    Key Points:
+    -----------
+    1) We declare instance variables as private to hide data from outside access.
+    2) We provide public getter and setter methods to read and modify the private variables safely.
+    3) Access to data is controlled; we can validate inputs inside setters.
+*/
+/*
+    Access Modifiers: ( we can use them to acheive encapsulation)
+    -----------------------
+    private   : Accessible only within the same class.
+    default   : Accessible within the same package.
+    protected : Accessible within the same package and by subclasses.
+    public    : Accessible from everywhere.
+
+    
+    Best Practices:
+    ---------------
+    1) Always keep instance variables private.
+    2) Provide public getters and setters as needed.
+    3) Perform validation inside setters if required.
+*/
