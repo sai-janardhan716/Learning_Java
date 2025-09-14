@@ -121,6 +121,40 @@ public class Practice {
             }
         }
     }
+
+    4) class Product{
+        private String productName;
+        private double price;
+        private int quantity;
+        Product(String productName, double price, int quantity){
+            if (price > 0 && quantity >= 0){
+                this.productName = productName;
+                this.price = price;
+                this.quantity = quantity;
+            }
+        }
+        public String getProductName(){
+            return productName;
+        }
+        public double getPrice(){
+            return price;
+        }
+        public int getQuantity(){
+            return quantity;
+        }
+        public void addStock(int amount){
+            if (amount > 0) {
+                quantity += amount;
+            }
+        }
+        public void reduceStock(int amount){
+            if (amount > 0 && amount <= quantity) {
+                quantity -= amount;
+            } else {
+                System.out.println("Not enough stock to reduce");
+            }
+        }
+    }
     */
     }
 }
