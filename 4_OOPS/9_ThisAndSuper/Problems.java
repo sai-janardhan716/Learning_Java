@@ -33,87 +33,87 @@ public class Problems {
 
     //Solutions
     /*
-    1) class Rectangle{
-           private int length;
-           private int breadth;
-           Rectangle(int length, int breadth){
-               this.length = length;   // using this to refer to instance variables
-               this.breadth = breadth;
-           }
-           public int area(){
-               return this.length * this.breadth;
-           }
-       }
-       // Rectangle r = new Rectangle(5, 10);
-       // System.out.println("Area: " + r.area());
+        1) class Rectangle{
+            private int length;
+            private int breadth;
+            Rectangle(int length, int breadth){
+                this.length = length;   // using this to refer to instance variables
+                this.breadth = breadth;
+            }
+            public int area(){
+                return this.length * this.breadth;
+            }
+        }
+        // Rectangle r = new Rectangle(5, 10);
+        // System.out.println("Area: " + r.area());
 
-    2) class Circle {
-        private double radius;
-        Circle(){
-            this.radius = 1.0;
+        2) class Circle {
+            private double radius;
+            Circle(){
+                this.radius = 1.0;
+            }
+            Circle(double radius){
+                this();                // calling default constructor
+                this.radius = radius;
+            }
+            public double area() {
+                return Math.PI * radius * radius;
+            }
         }
-        Circle(double radius){
-            this();                // calling default constructor
-            this.radius = radius;
-        }
-        public double area() {
-            return Math.PI * radius * radius;
-        }
-    }
-       // Circle c = new Circle(4.5);
-       // System.out.println("Area: " + c.area());
+        // Circle c = new Circle(4.5);
+        // System.out.println("Area: " + c.area());
 
-    3) class Person{
-           void display() {
-               System.out.println("I am a person");
-           }
-       }
-       class Employee extends Person{
-           @Override
-           void display() {
-               super.display(); // call parent method
-               System.out.println("I am an employee");
-           }
-       }
-       // Employee e = new Employee();
-       // e.display();
+        3) class Person{
+            void display() {
+                System.out.println("I am a person");
+            }
+        }
+        class Employee extends Person{
+            @Override
+            void display() {
+                super.display(); // call parent method
+                System.out.println("I am an employee");
+            }
+        }
+        // Employee e = new Employee();
+        // e.display();
 
-    4) class Vehicle {
-        int speed;
-        Vehicle(int speed) {
-            this.speed = speed;
+        4) class Vehicle {
+            int speed;
+            Vehicle(int speed) {
+                this.speed = speed;
+            }
         }
-    }
-    class Car extends Vehicle{
-        String brand;
-        Car(int speed, String brand) {
-            super(speed);        // call parent constructor
-            this.brand = brand;
+        class Car extends Vehicle{
+            String brand;
+            Car(int speed, String brand) {
+                super(speed);        // call parent constructor
+                this.brand = brand;
+            }
+            void show(){
+                System.out.println("Brand: " + brand + ", Speed: " + speed);
+            }
         }
-        void show(){
-            System.out.println("Brand: " + brand + ", Speed: " + speed);
-        }
-    }
-    // Car c = new Car(120, "Tesla");
-    // c.show();
+        // Car c = new Car(120, "Tesla");
+        // c.show();
 
-    5) class Animal{
-        void sound(){
-            System.out.println("Animal makes a sound");
+        5) class Animal{
+            void sound(){
+                System.out.println("Animal makes a sound");
+            }
         }
-    }
-    class Dog extends Animal {
-        @Override
-        void sound() {
-            System.out.println("Dog barks");
+        class Dog extends Animal {
+            @Override
+            void sound() {
+                System.out.println("Dog barks");
+            }
+            void parentSound() {
+                super.sound(); // call parent sound
+            }
         }
-        void parentSound() {
-            super.sound(); // call parent sound
-        }
-    }
-    // Dog d = new Dog();
-    // d.sound();
-    // d.parentSound();
+        // Dog d = new Dog();
+        // d.sound();
+        // d.parentSound();
     */
     }    
 }
