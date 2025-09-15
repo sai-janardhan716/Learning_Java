@@ -96,6 +96,24 @@ public class Problems {
     }
     // Car c = new Car(120, "Tesla");
     // c.show();
+
+    5) class Animal{
+        void sound(){
+            System.out.println("Animal makes a sound");
+        }
+    }
+    class Dog extends Animal {
+        @Override
+        void sound() {
+            System.out.println("Dog barks");
+        }
+        void parentSound() {
+            super.sound(); // call parent sound
+        }
+    }
+    // Dog d = new Dog();
+    // d.sound();
+    // d.parentSound();
     */
     }    
 }
