@@ -30,5 +30,22 @@ public class Problems {
         • Dog extends Animal and overrides sound() to print "Dog barks".
         • Create another method in Dog that calls the parent’s sound() using `super.sound()`.
     */
+
+    //Solutions
+    /*
+    1) class Rectangle{
+           private int length;
+           private int breadth;
+           Rectangle(int length, int breadth){
+               this.length = length;   // using this to refer to instance variables
+               this.breadth = breadth;
+           }
+           public int area(){
+               return this.length * this.breadth;
+           }
+       }
+       // Rectangle r = new Rectangle(5, 10);
+       // System.out.println("Area: " + r.area());
+    */
     }    
 }
