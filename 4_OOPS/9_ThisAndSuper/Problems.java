@@ -63,6 +63,20 @@ public class Problems {
        // Circle c = new Circle(4.5);
        // System.out.println("Area: " + c.area());
 
+    3) class Person{
+           void display() {
+               System.out.println("I am a person");
+           }
+       }
+       class Employee extends Person{
+           @Override
+           void display() {
+               super.display(); // call parent method
+               System.out.println("I am an employee");
+           }
+       }
+       // Employee e = new Employee();
+       // e.display();
     */
     }    
 }
