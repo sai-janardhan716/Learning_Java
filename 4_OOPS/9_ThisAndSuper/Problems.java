@@ -46,6 +46,23 @@ public class Problems {
        }
        // Rectangle r = new Rectangle(5, 10);
        // System.out.println("Area: " + r.area());
+
+    2) class Circle {
+        private double radius;
+        Circle(){
+            this.radius = 1.0;
+        }
+        Circle(double radius){
+            this();                // calling default constructor
+            this.radius = radius;
+        }
+        public double area() {
+            return Math.PI * radius * radius;
+        }
+    }
+       // Circle c = new Circle(4.5);
+       // System.out.println("Area: " + c.area());
+
     */
     }    
 }
