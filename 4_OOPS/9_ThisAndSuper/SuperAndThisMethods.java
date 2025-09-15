@@ -1,7 +1,10 @@
+// Both this and super are reference keywords and methods are there
 // In default Every constructor has supermethod (super())
 // This "super()" method used to call and execute the superclass
 // Now there is a method called this() which refers to the constructor in that class only
 
+
+//Methods
 class A extends Object{
     public A(){
         // super();  --> We dont have to mention it becuase by default it was there
