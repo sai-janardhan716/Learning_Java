@@ -77,6 +77,25 @@ public class Problems {
        }
        // Employee e = new Employee();
        // e.display();
+
+    4) class Vehicle {
+        int speed;
+        Vehicle(int speed) {
+            this.speed = speed;
+        }
+    }
+    class Car extends Vehicle{
+        String brand;
+        Car(int speed, String brand) {
+            super(speed);        // call parent constructor
+            this.brand = brand;
+        }
+        void show(){
+            System.out.println("Brand: " + brand + ", Speed: " + speed);
+        }
+    }
+    // Car c = new Car(120, "Tesla");
+    // c.show();
     */
     }    
 }
