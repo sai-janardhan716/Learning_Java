@@ -31,5 +31,34 @@ public class StaticKeyword {
             -> Every time a new object is created, the same count variable is updated.
             -> If count were not static, each object would have its own separate count (all starting from 0), and the printed value would always be 1.
         */
+
+        /*
+        b) Static Methods:-
+        --------------------
+        -> Belong to the class, not to a specific object.
+        -> Can be called without creating an object of the class.
+        -> Cannot access non-static (instance) members directly, because there is no specific object to refer to.
+        -> Used for utility/helper methods.
+
+        Example:-
+        class MathUtil{
+            static int square(int x){      // here square method is a static method
+                return x  x;
+            }
+        }
+        public class Main{
+            public static void main(String[] args) {
+                int result = MathUtil.square(5);    // called using class name
+                System.out.println("Square = " + result);
+            }
+        }
+
+        -> Here square() is a static method, so we can call it as MathUtil.square(5) without creating a MathUtil object.
+        -> It can directly use other static variables or call other static methods of the class.
+
+        Note:-
+        ------
+        -> A static method cannot use this or super because it does not belong to any particular object instance.
+        */
     }
 }
