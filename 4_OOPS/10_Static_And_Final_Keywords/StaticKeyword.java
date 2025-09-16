@@ -61,5 +61,32 @@ public class StaticKeyword {
             -> A static method cannot use this or super because it does not belong to any particular object instance.
         */
         
+        /*
+            Static Blocks:-
+            ----------------
+            -> A static initialization block runs once when the class is first loaded into memory, before any object is created and before main() executes.
+            -> Used to initialize static variables or perform one-time setup.
+
+            Example:-
+            class Demo{
+                static int value;
+                // static block
+                static{
+                    System.out.println("Static block executed");
+                    value = 100;    // initialize static variable
+                }
+                public static void main(String[] args) {
+                    System.out.println("Main method executed");
+                    System.out.println("Value = " + value);
+                }
+            }
+
+            -> When the Demo class is loaded, the static block runs first.
+            -> Then the main() method runs.
+
+            Notes:-
+            -> Static blocks are executed only once per class loading, no matter how many objects you create.
+            -> They are ideal for initializing static data when simple assignment is not enough.
+        */
     }
 }
