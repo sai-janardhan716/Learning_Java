@@ -1,12 +1,11 @@
-public class StaticsAndFinalKeywords {
+public class StaticKeyword {
     public static void main(String[] args) {
-        // Static Keyword
-        //-----------------
         /*
             The static keyword in Java is used for memory management and allows members (ie variables, methods, blocks, nested classes) 
             to belong to the class rather than an object.
 
-            a) Static Variables:- 
+            a) Static Variables:-
+            ------------------------
             -> Shared across all objects of the class.
             -> Stored in the class area, not the heap.
             -> Useful for constants or counters.
