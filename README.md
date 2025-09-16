@@ -1,6 +1,6 @@
 # Java Learning Repository
 
-Welcome to my **Java Learning Repository** – a collection of all the Java concepts which i have learned, along with their explanations, meanings, and practice codes.  
+Welcome to my **Java Learning Repository** – a collection of all the Java concepts which i have learned, along with their explanations, meanings, and practice codes (problems reffered from **ChatGPT**).  
 
 This repository serves as:
 - A personal **learning log**  
