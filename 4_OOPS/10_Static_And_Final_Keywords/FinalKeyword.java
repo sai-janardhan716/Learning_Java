@@ -32,6 +32,8 @@ public class FinalKeyword {
 
             Note:-
             -> final variable = constant value, cannot be reassigned.
+            -> we can combine final with static to create true constants:
+                   static final double PI = 3.14159;
         */
         /*
             b) Final Methods:-
