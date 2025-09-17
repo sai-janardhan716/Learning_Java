@@ -54,6 +54,9 @@ public class FinalKeyword {
                 }
             }
             -> The run() method in Vehicle is final, so Car cannot override it.
+
+            Note:-
+            final method   = cannot be overridden in a subclass.
         */
 
         /*
