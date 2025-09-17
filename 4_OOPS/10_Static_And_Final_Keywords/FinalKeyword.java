@@ -52,5 +52,28 @@ public class FinalKeyword {
             }
             -> The run() method in Vehicle is final, so Car cannot override it.
         */
+
+        /*
+            c) Final Classes:-
+            -------------------
+            -> A class declared as final cannot be inherited.
+            -> Used when you want to prevent extension of the class.
+
+            Example:-
+            final class Shape{
+                void draw(){
+                    System.out.println("Drawing shape");
+                }
+            }
+            // class Circle extends Shape { } // ❌ Error: cannot inherit from final class
+
+            public class Main{
+                public static void main(String[] args) {
+                    Shape s = new Shape();
+                    s.draw();
+                }
+            }
+            -> Here Shape is a final class, so no other class can extend it.
+        */
     }
 }
