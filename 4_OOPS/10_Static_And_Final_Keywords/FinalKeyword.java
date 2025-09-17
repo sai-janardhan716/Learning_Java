@@ -71,7 +71,7 @@ public class FinalKeyword {
                     System.out.println("Drawing shape");
                 }
             }
-            // class Circle extends Shape { } // ❌ Error: cannot inherit from final class
+            // class Circle extends Shape { } //Error: cannot inherit from final class
 
             public class Main{
                 public static void main(String[] args) {
@@ -80,6 +80,9 @@ public class FinalKeyword {
                 }
             }
             -> Here Shape is a final class, so no other class can extend it.
+
+            Note:-
+            final class    = cannot be extended (no subclass can be created).
         */
     }
 }
