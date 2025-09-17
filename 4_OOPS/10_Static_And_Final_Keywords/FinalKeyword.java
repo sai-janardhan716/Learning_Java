@@ -29,6 +29,9 @@ public class FinalKeyword {
                 }
             }
             -> Here SPEED_LIMIT and capacity can never be changed after being set.
+
+            Note:-
+            -> final variable = constant value, cannot be reassigned.
         */
         /*
             b) Final Methods:-
