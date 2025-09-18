@@ -40,6 +40,13 @@ public class Problems {
         }
         // In main Method
         // Demo d = new Demo(); // Static block runs once when class is loaded.
+
+        4) class Vehicle{
+            final int MAX_SPEED = 120;
+            void changeSpeed(){
+                //MAX_SPEED = 150; //Compilation Error: cannot assign a value to final variable
+            }
+        }
     */
     }
 }
