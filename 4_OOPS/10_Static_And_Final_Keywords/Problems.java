@@ -22,6 +22,14 @@ public class Problems {
         //in main methods
         // new Counter();
         // new Counter();
+
+        2) class Calculator {
+            static int add(int a, int b) {
+                return a + b;
+            }
+        }
+        // In main Method
+        // System.out.println(Calculator.add(5, 7));
     */
     }
 }
