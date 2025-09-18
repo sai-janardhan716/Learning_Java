@@ -1,8 +1,7 @@
 public class Problems {
     public static void main(String[] args) {
+    //Practice Problems
     /*
-    Practice Problems
-    -----------------
         1) Create a class Counter with a static variable count.
         -> Increment count in the constructor and display it.
         2) Make a static utility method add(int a, int b) that returns their sum.
