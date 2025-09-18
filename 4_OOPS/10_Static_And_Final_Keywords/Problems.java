@@ -47,6 +47,15 @@ public class Problems {
                 //MAX_SPEED = 150; //Compilation Error: cannot assign a value to final variable
             }
         }
+
+        5) class Parent {
+            final void display() {
+                System.out.println("Final method in Parent");
+            }
+        }
+        class Child extends Parent {
+            //void display(){ }//Error: cannot override final method
+        }
     */
     }
 }
