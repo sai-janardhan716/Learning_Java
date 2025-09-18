@@ -9,5 +9,19 @@ public class Problems {
         4) Declare a final variable MAX_SPEED = 120 inside a class Vehicle and try to change it (observe error).
         5) Create a final method display() in a class Parent and attempt to override it in a subclass.
     */
+
+    //Solutions
+    /*
+        1) class Counter {
+            static int count = 0;
+            Counter() {
+                count++;
+                System.out.println("Count: " + count);
+            }
+        }
+        //in main methods
+        // new Counter();
+        // new Counter();
+    */
     }
 }
