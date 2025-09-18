@@ -30,6 +30,16 @@ public class Problems {
         }
         // In main Method
         // System.out.println(Calculator.add(5, 7));
+
+        3) class Demo {
+            int value;
+            static {
+               value = 42;
+               System.out.println("Static block executed. Value = " + value);
+            }
+        }
+        // In main Method
+        // Demo d = new Demo(); // Static block runs once when class is loaded.
     */
     }
 }
