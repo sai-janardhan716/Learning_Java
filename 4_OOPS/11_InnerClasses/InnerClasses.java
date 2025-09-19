@@ -44,6 +44,25 @@ public class InnerClasses {
             }
             Outer.Nested obj = new Outer.Nested(); // no outer object required
             obj.show();
+
+            3) Local Inner Class
+            -> Defined inside a method, constructor, or block of the outer class.
+            -> Scope is limited to that method/block.
+            -> Can access final or effectively final local variables.
+            Example:-
+            class Outer {
+                void outerMethod() {
+                    int x = 7; // effectively final
+                    class LocalInner {
+                        void print() {
+                            System.out.println("Value of x: " + x);
+                        }
+                    }
+                    LocalInner li = new LocalInner();
+                    li.print();
+                }
+            }
+            new Outer().outerMethod();
         */
     }
 }
