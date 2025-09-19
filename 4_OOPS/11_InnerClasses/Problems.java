@@ -73,6 +73,20 @@ public class Problems {
             }
             University.Department d = new University.Department("CSE", "Dr. Janardhan");
             University.Department.info(d);
+
+            3) class Car {
+                private class Engine {
+                    void start() {
+                        System.out.println("Engine started");
+                    }
+                }
+                void startCar() {
+                    Engine e = new Engine();
+                    e.start();
+                }
+            }
+            Car car = new Car();
+            car.startCar();
         */
     }
 }
