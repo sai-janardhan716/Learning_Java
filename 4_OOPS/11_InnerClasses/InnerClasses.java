@@ -24,14 +24,26 @@ public class InnerClasses {
                     }
                 }
             }
-            public class Main {
-                public static void main(String[] args) {
-                    Outer outer = new Outer();
-                    Outer.Inner inner = outer.new Inner(); // create via outer object
-                    inner.display();
+            Outer outer = new Outer();
+            Outer.Inner inner = outer.new Inner(); // create via outer object
+            inner.display();
+            -> The Inner class can directly access Outer’s private field message.
+
+            2) Static Nested Class
+            -> Declared with the static keyword inside another class.
+            -> Does NOT need an instance of the outer class.
+            -> Can access only static members of the outer class directly.
+            Example:-
+            class Outer {
+                static String greeting = "Welcome Janardhan alias ganesh";
+                static class Nested {
+                    void show() {
+                        System.out.println("Greeting: " + greeting);
+                    }
                 }
             }
-            -> The Inner class can directly access Outer’s private field message.
+            Outer.Nested obj = new Outer.Nested(); // no outer object required
+            obj.show();
         */
     }
 }
