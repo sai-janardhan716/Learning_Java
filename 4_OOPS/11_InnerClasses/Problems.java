@@ -102,6 +102,29 @@ public class Problems {
                 System.out.println("Button clicked man");
             }
             });
+
+            5) class Book {
+                String title;
+                Book(String title) {
+                    this.title = title;
+                }
+                class Chapter {
+                    String chapterName;
+                    Chapter(String chapterName) {
+                        this.chapterName = chapterName;
+                    }
+                    void show() {
+                        System.out.println("Book: " + title + " - Chapter: " + chapterName);
+                    }
+                }
+                void addChapter(String name) {
+                    Chapter c = new Chapter(name);
+                    c.show();
+                }
+            }
+            Book b = new Book("Java Basics");
+            b.addChapter("Introduction");
+            b.addChapter("OOP Concepts");
         */
     }
 }
