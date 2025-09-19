@@ -32,5 +32,32 @@ public class Problems {
             • Book has a method addChapter(String name) that creates a Chapter and displays both book title and chapter name.
             • In main(): create a Book and add multiple chapters using the inner class.
         */
+        //Solutions
+        /*
+            1) class Employee {
+                String name;
+                int id;
+                Employee(String name, int id) {
+                    this.name = name;
+                    this.id = id;
+                }
+                class Address {
+                    String city, state;
+                    int pincode;
+                    Address(String city, String state, int pincode) {
+                        this.city = city;
+                        this.state = state;
+                        this.pincode = pincode;
+                    }
+                    void display() {
+                        System.out.println("Employee: " + name + " (" + id + ")");
+                        System.out.println("Address: " + city + ", " + state + " - " + pincode);
+                    }
+                }
+            }
+            Employee e = new Employee("Ganesh", 101);
+            Employee.Address addr = e.new Address("Tenali", "AP", 522309);
+            addr.display();
+        */
     }
 }
