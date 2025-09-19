@@ -87,6 +87,21 @@ public class Problems {
             }
             Car car = new Car();
             car.startCar();
+
+            4) interface OnClickListener {
+                void onClick();
+            }
+            class Button {
+                void setOnClickListener(OnClickListener listener) {
+                    listener.onClick();
+                }
+            }
+            Button btn = new Button();
+            btn.setOnClickListener(new OnClickListener() {
+            public void onClick() {
+                System.out.println("Button clicked man");
+            }
+            });
         */
     }
 }
