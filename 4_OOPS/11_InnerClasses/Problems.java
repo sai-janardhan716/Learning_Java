@@ -58,6 +58,21 @@ public class Problems {
             Employee e = new Employee("Ganesh", 101);
             Employee.Address addr = e.new Address("Tenali", "AP", 522309);
             addr.display();
+
+            2) class University {
+                static class Department {
+                    String deptName, hodName;
+                    Department(String deptName, String hodName) {
+                        this.deptName = deptName;
+                        this.hodName = hodName;
+                    }
+                    static void info(Department d) {
+                        System.out.println("Dept: " + d.deptName + ", HOD: " + d.hodName);
+                    }
+                }
+            }
+            University.Department d = new University.Department("CSE", "Dr. Janardhan");
+            University.Department.info(d);
         */
     }
 }
