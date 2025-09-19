@@ -63,6 +63,21 @@ public class InnerClasses {
                 }
             }
             new Outer().outerMethod();
+
+            4) Anonymous Inner Class
+            -> A class without a name.
+            -> Used to provide an immediate implementation of an interface
+               or override methods of a class.
+            -> Declared and instantiated at the same time.
+            abstract class Animal {
+                abstract void sound();
+            }
+            Animal a = new Animal() {
+                void sound() {
+                    System.out.println("Dog barks");
+                }
+            };
+            a.sound();
         */
     }
 }
