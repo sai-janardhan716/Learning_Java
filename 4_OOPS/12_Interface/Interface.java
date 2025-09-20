@@ -31,6 +31,14 @@ public class Interface {
                     System.out.println(t.a);
                 }
             }
+
+            Notes:-
+            -> Supports multiple inheritance (a class can implement multiple interfaces)
+            ->  A class can extend only one class
+            ->  Use interfaces to:
+                - Define capabilities (e.g., Comparable, Runnable).
+                - Support loose coupling and plug-and-play designs.
+                - Provide multiple inheritance of type.
         */
     }    
 }
