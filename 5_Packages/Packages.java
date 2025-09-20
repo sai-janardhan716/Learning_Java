@@ -20,7 +20,7 @@ public class Packages {
             public class Main{
                 public static void main(String[] args){
                     Scanner sc = new Scanner(System.in);  --> we are using the scanner file by creating the object for that
-                    int a = sc.nextInt();
+                    int a = sc.nextInt();  --> we are using nextInt() method which is present in Scanner file by its object (sc)
                 }
             }
         */
