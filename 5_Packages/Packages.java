@@ -38,6 +38,17 @@ public class Packages {
                     reg.display();
                 }
             }
+
+            Note:-
+            -> The package statement must be the FIRST line in the source file.
+            -> Folder name and package name must match exactly (case-sensitive).
+            -> Access Modifiers matter:
+                    - public classes/methods can be used outside the package.
+                    - default (no modifier) members are accessible only within the same package.
+            -> For importing one class or one file we will use
+                    import folder1.subfolder1.filename
+            -> For importing all files in the specific folder
+                    import folder1.*;
         */
     }
 }
