@@ -59,6 +59,21 @@ public class Problems {
                     System.out.println("Refunded " + amount + " to UPI account.");
                 }
             }
+
+            2) interface Drivable{
+                void drive();
+            }
+            interface Flyable{
+                void fly();
+            }
+            class FlyingCar implements Drivable, Flyable{
+                public void drive() {
+                    System.out.println("FlyingCar is driving on road.");
+                }
+                public void fly(){
+                    System.out.println("FlyingCar is flying in sky.");
+                }
+            }
         */
     }
 }
