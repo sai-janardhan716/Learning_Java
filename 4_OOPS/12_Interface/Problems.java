@@ -115,6 +115,20 @@ public class Problems {
                     System.out.println("Radio broadcast stopped.");
                 }
             }
+
+            5) interface Scorable{
+                int getScore();
+            }
+            class Cricket implements Scorable{
+                private int runs;
+                Cricket(int runs){this.runs = runs;}
+                public int getScore(){return runs;}
+            }
+            class Football implements Scorable{
+                private int goals;
+                Football(int goals){this.goals = goals;}
+                public int getScore(){return goals;}
+            }
         */
     }
 }
