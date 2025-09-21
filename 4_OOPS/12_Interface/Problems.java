@@ -101,10 +101,10 @@ public class Problems {
             }
             class Mp3Player implements Playable{
                 public void play(){
-                    System.out.println("MP3 Player playing music...");
+                    System.out.println("MP3 Player playing music");
                 }
                 public void stop(){
-                    System.out.println("MP3 Player stopped.");
+                    System.out.println("MP3 Player stopped");
                 }
             }
             class Radio implements Playable{
@@ -112,7 +112,7 @@ public class Problems {
                     System.out.println("Radio is playing live broadcast");
                 }
                 public void stop(){
-                    System.out.println("Radio broadcast stopped.");
+                    System.out.println("Radio broadcast stopped");
                 }
             }
 
