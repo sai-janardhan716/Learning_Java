@@ -36,5 +36,29 @@ public class Problems {
                 -> Football (return goals)
             • In main, create objects of both and display their scores.
         */
+        // Solutions
+        /*
+        1) Payment Gateway
+            interface Payment{
+                void pay(double amount);
+                void refund(double amount);
+            }
+            class CreditCardPayment implements Payment{
+                public void pay(double amount){
+                    System.out.println("Paid " + amount + " using Credit Card.");
+                }
+                public void refund(double amount){
+                    System.out.println("Refunded " +amount+ " to Credit Card.");
+                }
+            }
+            class UpiPayment implements Payment{
+                public void pay(double amount){
+                    System.out.println("Paid " +amount + " using UPI.");
+                }
+                public void refund(double amount){
+                    System.out.println("Refunded " + amount + " to UPI account.");
+                }
+            }
+        */
     }
 }
