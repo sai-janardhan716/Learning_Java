@@ -1,4 +1,4 @@
-public class Problems {
+public class Practice {
     public static void main(String[] args) {
         // Problems
         /*
