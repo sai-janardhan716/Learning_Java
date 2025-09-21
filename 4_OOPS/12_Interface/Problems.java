@@ -74,6 +74,26 @@ public class Problems {
                     System.out.println("FlyingCar is flying in sky.");
                 }
             }
+
+            3) interface Shape{
+                double area();
+                double perimeter();
+            }
+            class Circle implements Shape{
+                double radius;
+                Circle(double radius){this.radius = radius;}
+                public double area(){return Math.PI * radius * radius;}
+                public double perimeter(){return 2 * Math.PI * radius;}
+            }
+            class Rectangle implements Shape{
+                double length, width;
+                Rectangle(double length, double width){
+                    this.length = length;
+                    this.width = width;
+                }
+                public double area(){return length * width;}
+                public double perimeter(){return 2 * (length + width);}
+            }
         */
     }
 }
