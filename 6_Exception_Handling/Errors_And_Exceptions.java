@@ -64,5 +64,11 @@ public class Errors_And_Exceptions {
             | Examples        | OutOfMemoryError, StackOverflow | NullPointerException, IOException |
             +-----------------+---------------------------------+-----------------------------------+
         */
+        
+        //Summary:
+        /*
+            -> Use try-catch-finally to handle exceptions and keep the program running.
+            -> Errors usually terminate the program and require fixing environment or code causing them.
+        */
     }    
 }
