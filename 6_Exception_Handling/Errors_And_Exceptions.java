@@ -52,5 +52,17 @@ public class Errors_And_Exceptions {
             }
             -> we will learn these try and catch keywords in our next session
         */
+
+        // Key Differences
+        /*
+            +-----------------+---------------------------------+-----------------------------------+
+            | Aspect          | Errors                          | Exceptions                        |
+            |-----------------+---------------------------------+-----------------------------------|
+            | Recoverable     | No                              | Yes (can be caught & handled)     |
+            | Cause           | System/JVM failure              | Program logic, invalid input      |
+            | Handling        | Not meant to be caught normally | Must/Can be caught or declared    |
+            | Examples        | OutOfMemoryError, StackOverflow | NullPointerException, IOException |
+            +-----------------+---------------------------------+-----------------------------------+
+        */
     }    
 }
