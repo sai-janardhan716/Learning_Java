@@ -10,6 +10,17 @@ public class Errors_And_Exceptions {
                 * OutOfMemoryError – JVM runs out of memory.
                 * StackOverflowError – Too much recursion, stack memory exhausted.
                 * VirtualMachineError – Internal JVM failure.
+            
+            EG:-
+            class ErrorExample {
+                public static void main(String[] args) {
+                    recursiveCall();   // leads to StackOverflowError ( You will learn more about stack in DSA chapter)
+                }
+                static void recursiveCall() {
+                    recursiveCall();
+                }
+            }
+
         */
     }    
 }
