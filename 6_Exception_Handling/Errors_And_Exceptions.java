@@ -24,5 +24,12 @@ public class Errors_And_Exceptions {
             -> We generally do NOT catch or handle Errors using try-catch because they indicate something
                fundamentally wrong with the runtime environment.
         */
+
+        //Exceptions
+        /*
+            -> Problems that occur during the execution of a program and can be handled.
+            -> Caused by issues in code logic or external factors like invalid user input, missing files, etc.
+            -> Java provides try-catch-finally and throws/throw to handle them.
+        */
     }    
 }
