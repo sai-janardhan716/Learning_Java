@@ -20,7 +20,9 @@ public class Errors_And_Exceptions {
                     recursiveCall();
                 }
             }
-
+            Notes:
+            -> We generally do NOT catch or handle Errors using try-catch because they indicate something
+               fundamentally wrong with the runtime environment.
         */
     }    
 }
