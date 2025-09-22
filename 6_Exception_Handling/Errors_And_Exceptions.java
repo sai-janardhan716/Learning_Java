@@ -38,6 +38,19 @@ public class Errors_And_Exceptions {
             2) Unchecked Exceptions: 
                 -> unchecked exceptions, also known as runtime exceptions, are not checked by the compiler and can go unhandled, often resulting from programming bugs or logic errors.
                 -> Subclasses of RuntimeException, occur at runtime (e.g., NullPointerException, ArithmeticException).
+            
+            EG:-
+            class ExceptionExample{
+                public static void main(String[] args) {
+                    try {
+                        int a = 10 / 0;   // ArithmeticException
+                        System.out.println("Result: " + a);
+                    } catch (ArithmeticException e) {
+                        System.out.println("Cannot divide by zero!");
+                    }
+                }
+            }
+            -> we will learn these try and catch keywords in our next session
         */
     }    
 }
