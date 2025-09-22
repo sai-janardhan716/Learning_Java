@@ -30,6 +30,14 @@ public class Errors_And_Exceptions {
             -> Problems that occur during the execution of a program and can be handled.
             -> Caused by issues in code logic or external factors like invalid user input, missing files, etc.
             -> Java provides try-catch-finally and throws/throw to handle them.
+
+            Common types:-
+            1) Checked Exceptions: 
+                -> Checked exceptions are runtime errors that the Java compiler enforces you to handle, either by using a try-catch block or a throws declaration.
+                -> Must be handled or declared (e.g., IOException, SQLException).
+            2) Unchecked Exceptions: 
+                -> unchecked exceptions, also known as runtime exceptions, are not checked by the compiler and can go unhandled, often resulting from programming bugs or logic errors.
+                -> Subclasses of RuntimeException, occur at runtime (e.g., NullPointerException, ArithmeticException).
         */
     }    
 }
