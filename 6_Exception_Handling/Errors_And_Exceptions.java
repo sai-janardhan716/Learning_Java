@@ -1,0 +1,15 @@
+public class Errors_And_Exceptions {
+    public static void main(String[] args) {
+        //Errors
+        /*
+            -> Errors in programming are issues or defects that cause abnormal behavior in a program.
+            -> These errors can occur during compilation or execution and must be resolved to ensure smooth program functionality.
+            -> When an error is found, the compiler generates an error message to help the programmer fix it.
+            -> Indicate issues with the environment/JVM, not with the application logic.
+            -> Common Types of Errors:
+                * OutOfMemoryError – JVM runs out of memory.
+                * StackOverflowError – Too much recursion, stack memory exhausted.
+                * VirtualMachineError – Internal JVM failure.
+        */
+    }    
+}
