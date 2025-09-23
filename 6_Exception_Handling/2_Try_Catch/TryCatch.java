@@ -30,12 +30,12 @@ public class TryCatch {
                     } catch (ArithmeticException e) {
                         System.out.println("Cannot divide by zero: " + e.getMessage());
                     }
-                    System.out.println("Program continues...");
+                    System.out.println("Program continues");
                 }
             }
             Output:
             Cannot divide by zero: / by zero
-            Program continues...
+            Program continues
 
             -> In this we uses Exception handling (try-catch) to continue the execution even when a small exception occurs.
 
