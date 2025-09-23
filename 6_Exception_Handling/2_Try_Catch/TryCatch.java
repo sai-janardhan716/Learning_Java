@@ -36,8 +36,12 @@ public class TryCatch {
             Output:
             Cannot divide by zero: / by zero
             Program continues...
-            
+
             -> In this we uses Exception handling (try-catch) to continue the execution even when a small exception occurs.
+
+            Notes:
+            -> If the exception is not caught, the program terminates abnormally.
+            -> The catch block can access the Exception object to get details about the error.
         */
     }    
 }
