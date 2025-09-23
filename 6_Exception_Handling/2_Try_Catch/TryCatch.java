@@ -11,6 +11,9 @@ public class TryCatch {
             } catch (ExceptionType e) {
                 // code to handle the exception
             }
+            
+            -> If an exception occurs in the try block, the control is immediately transferred to the matching catch block.
+            -> If no exception occurs, the catch block is skipped.
         */
     }    
 }
