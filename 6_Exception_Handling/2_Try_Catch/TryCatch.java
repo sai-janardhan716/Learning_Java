@@ -14,6 +14,11 @@ public class TryCatch {
             
             -> If an exception occurs in the try block, the control is immediately transferred to the matching catch block.
             -> If no exception occurs, the catch block is skipped.
+
+            Key Points:
+            -> You can have multiple catch blocks to handle different exception types.
+            -> A single try can be followed by multiple catch blocks.
+            -> The most specific exception should be caught first.
         */
     }    
 }
