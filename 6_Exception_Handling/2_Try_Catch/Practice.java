@@ -98,6 +98,21 @@ public class Practice {
                     }
                 }
             }
+
+            5)import java.io.*;
+            class FileRead{
+                public static void main(String[] args){
+                    try{
+                        BufferedReader br = new BufferedReader(new FileReader("data.txt"));
+                        System.out.println(br.readLine());
+                        br.close();
+                    }catch (FileNotFoundException e) {
+                        System.out.println("Error: File not found.");
+                    }catch (IOException e){
+                        System.out.println("Error reading file");
+                    }
+                }
+            }
         */
     }
 }
