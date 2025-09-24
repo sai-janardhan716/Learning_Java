@@ -1,0 +1,40 @@
+public class Practice {
+    public static void main(String[] args) {
+        //Problems
+        /*
+            1) DivideByZero
+            • Read two integers from the user.
+            • Try to divide the first number by the second.
+            • Catch ArithmeticException and display a custom message.
+
+            2) ArrayIndex
+            • Create an array of size 5.
+            • Ask the user for an index and print the element.
+            • Catch ArrayIndexOutOfBoundsException if the index is invalid.
+
+            3) NumberFormat
+            • Read a string from the user.
+            • Convert it to an integer using Integer.parseInt().
+            • Catch NumberFormatException if the input is not a valid number.
+
+            4) NullPointer
+            • Declare a String variable and set it to null.
+            • Try to call length() on it.
+            • Catch NullPointerException and display an error message.
+
+            5) FileRead
+            • Try to open and read a text file named "data.txt".
+            • If the file doesn’t exist, catch FileNotFoundException.
+
+            6) MultipleCatch
+            • Read two integers from the user and store them in an array of size 2.
+            • Try to divide the first by the second.
+            • Use multiple catch blocks to handle both ArithmeticException and ArrayIndexOutOfBoundsException.
+
+            7) FinallyBlock
+            • Demonstrate try-catch-finally.
+            • Divide two numbers and handle ArithmeticException.
+            • In the finally block, print "Execution Completed" whether exception occurs or not.            
+        */
+    }
+}
