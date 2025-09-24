@@ -71,6 +71,22 @@ public class Practice {
                     }
                 }
             }
+
+            3)import java.util.*;
+            class NumberFormat{
+                public static void main(String[] args){
+                    Scanner sc =new Scanner(System.in);
+                    try{
+                        System.out.print("Enter a number:");
+                        String s = sc.nextLine();
+                        int num = Integer.parseInt(s);
+                        System.out.println("Integer:" + num);
+                    } 
+                    catch(NumberFormatException e){
+                        System.out.println("Error:Not a valid integer");
+                    }
+                }
+            }
         */
     }
 }
