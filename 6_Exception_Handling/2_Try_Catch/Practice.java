@@ -113,6 +113,25 @@ public class Practice {
                     }
                 }
             }
+
+            6) import java.util.*;
+            class MultipleCatch{
+                public static void main(String[] args){
+                    Scanner sc = new Scanner(System.in);
+                    int[] arr = new int[2];
+                    try{
+                        System.out.print("Enter first number:");
+                        arr[0]=sc.nextInt();
+                        System.out.print("Enter second number:");
+                        arr[1] =sc.nextInt();
+                        System.out.println("Division: " + arr[0]/arr[1]);
+                    } catch(ArithmeticException e){
+                        System.out.println("Error:Division by zero");
+                    }catch (ArrayIndexOutOfBoundsException e){
+                        System.out.println("Error:Array index issue.");
+                    }
+                }
+            }
         */
     }
 }
