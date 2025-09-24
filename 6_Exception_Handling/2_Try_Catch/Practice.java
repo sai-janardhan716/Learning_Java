@@ -36,5 +36,26 @@ public class Practice {
             • Divide two numbers and handle ArithmeticException.
             • In the finally block, print "Execution Completed" whether exception occurs or not.            
         */
+
+        //Solutions
+        /*
+            1) import java.util.*;
+            class DivideByZero{
+                public static void main(String[] args){
+                    Scanner sc = new Scanner(System.in);
+                    try{
+                        System.out.print("Enter numerator:");
+                        int a = sc.nextInt();
+                        System.out.print("Enter denominator:");
+                        int b = sc.nextInt();
+                        int res = a / b;
+                        System.out.println("Result:" +res);
+                    }
+                    catch (ArithmeticException e){
+                        System.out.println("Error:Cannot divide by zero.");
+                    }
+                }
+            }
+        */
     }
 }
