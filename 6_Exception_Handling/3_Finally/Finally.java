@@ -12,6 +12,15 @@ public class Finally {
                     } finally {
                         // cleanup code that always executes
                     }
+                        
+            Key Points:
+            -> The finally block executes:
+                - If no exception occurs.
+                - If an exception occurs and is caught.
+                - Even if a return statement is used inside try or catch.
+            -> It will not execute only when:
+                - The JVM shuts down unexpectedly (e.g., System.exit()).
+                - The program is terminated abruptly.
         */
     }
 }
