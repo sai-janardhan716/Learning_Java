@@ -12,38 +12,35 @@ This repository serves as:
 ## Topics Covered
 - **Basics**
   - What is Java
-  - JVM, JDK, JRE
+  - JDK, JVM, JRE
   - Data Types. Variables, Type Casting
   - Operators
   - Input/Output in Java
 
 - **Control Flow**
-  - Conditional Statements
-  - Loops
-  - Jump Statements
+  - Conditional Statements (if-else, switch)
+  - Loops (for, while, do while)
+  - Jump Statements (break, continue)
 
 - **Arrays & Strings**
   - Arrays
-  - String Basics]
-  - String Methods & Operations
-  - StringBuffer & StringBuilder
+  - Strings (String Methods & Operations, StringBuffer & StringBuilder)
+  - For each loop
 
 - **Object-Oriented Programming (OOP)**
-  - Classes & Objects
   - Methods
+  - Classes & Objects
+  - Method overloading and overriding
   - Constructors
   - Inheritance
   - Polymorphism
   - Abstraction
   - Encapsulation
-
-- **Advanced OOP Concepts**
-  - Packages
   - this & super keyword
-  - Static keyword
-  - Final keyword
-  - Inner Classes
+  - static & final
+  - Inner class
 
+- **Packages**
 - **Exception Handling**
   - Errors vs Exceptions
   - try-catch blocks
@@ -71,7 +68,7 @@ This repository serves as:
 ---
 
 ## Goal
-The goal of this repository is to document my Java learning journey and create a structured resource that is helpful for both myself and anyone else learning Java.
+The goal of this repository is to document my Java learning journey and create a structured resource that is helpful for both myself and anyone else learning and revising Java.
 
 ## Contributions
 This is my personal learning repo, but if you’d like to suggest improvements, new examples, or corrections, feel free to open a Pull Request or Issue.
