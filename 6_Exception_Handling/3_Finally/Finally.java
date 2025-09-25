@@ -30,6 +30,11 @@ public class Finally {
             }finally{
                 System.out.println("Finally block always executes");
             }
+
+            Use Cases:
+            -> Close files or release resources after use.
+            -> Ensure database connections are properly closed.
+            -> Perform cleanup tasks that must happen no matter what.
         */
     }
 }
