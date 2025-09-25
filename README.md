@@ -3,7 +3,7 @@
 Welcome to my **Java Learning Repository** – a collection of all the Java concepts which i have learned, along with their explanations, meanings, and practice codes (problems reffered from **ChatGPT**).  
 
 This repository serves as:
-- A personal **learning log**  
+- A personal **Revising log**  
 - A **quick reference** for revision  
 - A resource for **beginners learning Java**  
 
