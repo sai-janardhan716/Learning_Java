@@ -12,7 +12,7 @@ public class Finally {
                     } finally {
                         // cleanup code that always executes
                     }
-                        
+
             Key Points:
             -> The finally block executes:
                 - If no exception occurs.
@@ -21,6 +21,15 @@ public class Finally {
             -> It will not execute only when:
                 - The JVM shuts down unexpectedly (e.g., System.exit()).
                 - The program is terminated abruptly.
+
+            EG:
+            try{
+                System.out.println("Inside try block");
+            }catch(Exception e) {
+                System.out.println("Inside catch block");
+            }finally{
+                System.out.println("Finally block always executes");
+            }
         */
     }
 }
