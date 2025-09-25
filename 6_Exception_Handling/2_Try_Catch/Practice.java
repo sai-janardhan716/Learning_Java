@@ -29,12 +29,7 @@ public class Practice {
             6) MultipleCatch
             • Read two integers from the user and store them in an array of size 2.
             • Try to divide the first by the second.
-            • Use multiple catch blocks to handle both ArithmeticException and ArrayIndexOutOfBoundsException.
-
-            7) FinallyBlock
-            • Demonstrate try-catch-finally.
-            • Divide two numbers and handle ArithmeticException.
-            • In the finally block, print "Execution Completed" whether exception occurs or not.            
+            • Use multiple catch blocks to handle both ArithmeticException and ArrayIndexOutOfBoundsException.            
         */
 
         //Solutions
