@@ -36,5 +36,20 @@ public class Practice {
             • Call System.exit(0) inside try.
             • finally block prints "This will not print if System.exit is called".
         */
+
+        //Solutions
+        /*
+            try{
+                BufferedReader br=new BufferedReader(new FileReader("nofile.txt"));
+                System.out.println(br.readLine());
+                br.close();
+            }catch(FileNotFoundException e){
+                System.out.println("Error:File not found.");
+            }catch (IOException e){
+                System.out.println("Error reading file.");
+            }finally{
+                System.out.println("Closing file resources");
+            }
+        */
     }    
 }
