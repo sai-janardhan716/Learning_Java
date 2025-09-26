@@ -63,6 +63,18 @@ public class Practice {
             } finally{
                 System.out.println("Division attempt finished");
             }
+
+            3)
+            int[] arr={1,2,3};
+            try{
+                System.out.println(arr[5]/0);
+            }catch (ArrayIndexOutOfBoundsException e) {
+                System.out.println("Error: Invalid index");
+            }catch (ArithmeticException e) {
+                System.out.println("Error:Division by zero");
+            }finally{
+                System.out.println("Execution completed");
+            }
         */
     }    
 }
