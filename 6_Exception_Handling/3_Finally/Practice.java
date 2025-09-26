@@ -85,6 +85,19 @@ public class Practice {
             }finally{
                 System.out.println("DB Connection Closed");
             }
+
+            5)
+            try{
+                try{
+                    int x = 5/0;
+                }catch(ArithmeticException e){
+                    System.out.println("Inner catch:Division by zero");
+                }finally{
+                    System.out.println("Inner finally executed");
+                }
+            }finally{
+                System.out.println("Outer finally executed");
+            }
         */
     }    
 }
