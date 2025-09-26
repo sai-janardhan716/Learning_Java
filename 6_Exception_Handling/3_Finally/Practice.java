@@ -98,6 +98,14 @@ public class Practice {
             }finally{
                 System.out.println("Outer finally executed");
             }
+
+            6)
+            try{
+                System.out.println("Start");
+                System.exit(0);
+            }finally{
+                System.out.println("This will not print if System.exit is called");
+            }
         */
     }    
 }
