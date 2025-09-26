@@ -75,6 +75,16 @@ public class Practice {
             }finally{
                 System.out.println("Execution completed");
             }
+
+            4)
+            try{
+                System.out.println("Connected to DB");
+                int x=5/0;
+            } catch (ArithmeticException e){
+                System.out.println("Error:" + e.getMessage());
+            }finally{
+                System.out.println("DB Connection Closed");
+            }
         */
     }    
 }
