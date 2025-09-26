@@ -39,6 +39,7 @@ public class Practice {
 
         //Solutions
         /*
+            1)
             try{
                 BufferedReader br=new BufferedReader(new FileReader("nofile.txt"));
                 System.out.println(br.readLine());
@@ -49,6 +50,18 @@ public class Practice {
                 System.out.println("Error reading file.");
             }finally{
                 System.out.println("Closing file resources");
+            }
+
+            2)
+            int a=10, b=0;
+            try{
+                int res = a/b;
+                System.out.println("Result:"+res);
+                return;   // even with return, finally runs
+            }catch(ArithmeticException e){
+                System.out.println("Error: Cannot divide by zero.");
+            } finally{
+                System.out.println("Division attempt finished");
             }
         */
     }    
