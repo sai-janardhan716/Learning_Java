@@ -50,6 +50,9 @@ public class Throw_and_throws {
             } catch (IOException e) {
                 System.out.println("Error: " + e.getMessage());
             }
+
+            -> Here readFile() declares that it throws IOException.
+            -> The caller (main method) must handle or declare this exception.
         */
     }
 }
