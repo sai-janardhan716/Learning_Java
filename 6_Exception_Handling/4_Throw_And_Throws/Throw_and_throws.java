@@ -34,6 +34,22 @@ public class Throw_and_throws {
 
             Syntax:-
             returnType methodName(parameters) throws ExceptionType1, ExceptionType2 { ... }
+
+            EG:-
+            import java.io.*;
+            class DemoThrows{
+                void readFile() throws IOException{
+                    BufferedReader br = new BufferedReader(new FileReader("data.txt"));
+                    System.out.println(br.readLine());
+                    br.close();
+                }
+            }
+            DemoThrows d = new DemoThrows();
+            try{
+                d.readFile();   // must handle IOException
+            } catch (IOException e) {
+                System.out.println("Error: " + e.getMessage());
+            }
         */
     }
 }
