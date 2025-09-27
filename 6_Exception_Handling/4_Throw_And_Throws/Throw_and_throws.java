@@ -54,5 +54,20 @@ public class Throw_and_throws {
             -> Here readFile() declares that it throws IOException.
             -> The caller (main method) must handle or declare this exception.
         */
+
+        /*
+            Key Differences
+            ---------------
+            -> throw : Used to actually throw an exception object.
+            -> throws: Used in a method signature to declare potential exceptions.
+            -> throw is followed by an object (new Exception()).
+            -> throws is followed by a class name (ExceptionType).
+
+            Notes
+            -----
+            -> We can throw only one exception at a time using throw.
+            -> throws can declare multiple exceptions separated by commas.
+            -> throw is inside method body; throws is in method signature.
+        */
     }
 }
