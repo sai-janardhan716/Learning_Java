@@ -9,6 +9,19 @@ public class Throw_and_throws {
 
             Syntax:-
             throw new ExceptionType("error message");
+
+            EG:-
+            class DemoThrow{
+                void checkAge(int age){
+                    if (age<18){
+                        throw new ArithmeticException("Not eligible to vote");
+                    }else{
+                        System.out.println("Eligible to vote");
+                    }
+                }
+            }
+            DemoThrow d = new DemoThrow();
+            d.checkAge(15);
         */
     }
 }
