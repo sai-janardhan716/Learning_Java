@@ -25,5 +25,15 @@ public class Throw_and_throws {
             -> Here we explicitly throw an ArithmeticException when age is less than 18.
             -> No code after throw in the same block will execute.
         */
+
+        //Throws
+        /*
+            -> Used in the method declaration to specify that the method may throw one or more checked exceptions.
+            -> It tells the caller of the method that it must handle or declare these exceptions.
+            -> Mainly used for checked exceptions like IOException, SQLException, etc.
+
+            Syntax:-
+            returnType methodName(parameters) throws ExceptionType1, ExceptionType2 { ... }
+        */
     }
 }
