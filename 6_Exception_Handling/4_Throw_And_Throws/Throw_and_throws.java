@@ -22,6 +22,8 @@ public class Throw_and_throws {
             }
             DemoThrow d = new DemoThrow();
             d.checkAge(15);
+            -> Here we explicitly throw an ArithmeticException when age is less than 18.
+            -> No code after throw in the same block will execute.
         */
     }
 }
