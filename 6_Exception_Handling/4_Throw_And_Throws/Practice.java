@@ -107,6 +107,20 @@ public class Practice {
             }catch(NumberFormatException e){
                 System.out.println("Error:Invalid number format");
             }
+
+            6)
+            static void processFile(String fileName) throws IOException, FileNotFoundException{
+                BufferedReader br=new BufferedReader(new FileReader(fileName));
+                System.out.println(br.readLine());
+                br.close();
+            }
+            try{
+                processFile("example.txt");
+            } catch (FileNotFoundException e){
+                System.out.println("Error: File not found");
+            } catch (IOException e){
+                System.out.println("Error reading file:" + e.getMessage());
+            }
         */
     }
 }
