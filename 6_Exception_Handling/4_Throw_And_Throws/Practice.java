@@ -73,6 +73,29 @@ public class Practice {
             }catch (IOException e){
                 System.out.println("Error opening file:" + e.getMessage());
             }
+
+            4)
+            class InsufficientFundsException extends Exception {
+                InsufficientFundsException(String msg) {
+                    super(msg);
+                }
+            }
+            class BankAccount{
+                double balance =500.0;
+                void withdraw(double amount) throws InsufficientFundsException{
+                    if (amount >balance){
+                        throw new InsufficientFundsException("Insufficient balance");
+                    }
+                    balance-=amount;
+                    System.out.println("Withdraw successful. Remaining:"+balance);
+                }
+            }
+            BankAccount acc=new BankAccount();
+            try{
+                acc.withdraw(700);
+            }catch(InsufficientFundsException e){
+                System.out.println("Error:" + e.getMessage());
+            }
         */
     }
 }
