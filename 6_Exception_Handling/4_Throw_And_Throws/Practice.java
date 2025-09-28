@@ -96,6 +96,17 @@ public class Practice {
             }catch(InsufficientFundsException e){
                 System.out.println("Error:" + e.getMessage());
             }
+
+            5)
+            static int parseNumber(String str){
+                return Integer.parseInt(str); // will throw NumberFormatException if invalid
+            }
+            try{
+                int num = parseNumber("abc");
+                System.out.println("Number: "+num);
+            }catch(NumberFormatException e){
+                System.out.println("Error:Invalid number format");
+            }
         */
     }
 }
