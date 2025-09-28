@@ -33,5 +33,21 @@ public class Practice {
             • Attempt to open and read the file.
             • In main, call this method and use multiple catch blocks to handle both exceptions.
         */
+
+        //Solutions
+        /*
+            1) 
+            void validateAge(int age){
+                if(age<18){
+                    throw new IllegalArgumentException("Age must be 18 or above");
+                }
+                System.out.println("Age is valid");
+            }
+            try{
+                validateAge(16);
+            }catch (IllegalArgumentException e){
+                System.out.println("Error: " + e.getMessage());
+            }
+        */
     }
 }
