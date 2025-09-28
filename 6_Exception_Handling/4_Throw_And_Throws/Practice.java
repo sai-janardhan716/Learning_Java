@@ -61,6 +61,18 @@ public class Practice {
             } catch (ArithmeticException e){
                 System.out.println("Error:" + e.getMessage());
             }
+
+            3)
+            static void openFile(String fileName) throws IOException{
+                BufferedReader br = new BufferedReader(new FileReader(fileName));
+                System.out.println("First line: " + br.readLine());
+                br.close();
+            }
+            try{
+                openFile("data.txt");
+            }catch (IOException e){
+                System.out.println("Error opening file:" + e.getMessage());
+            }
         */
     }
 }
