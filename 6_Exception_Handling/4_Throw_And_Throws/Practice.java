@@ -48,6 +48,19 @@ public class Practice {
             }catch (IllegalArgumentException e){
                 System.out.println("Error: " + e.getMessage());
             }
+
+            2)
+            static int divide(int a, int b){
+                if(b==0){
+                    throw new ArithmeticException("Cannot divide by zero");
+                }
+                return a/b;
+            }
+            try{
+                System.out.println(divide(10,0));
+            } catch (ArithmeticException e){
+                System.out.println("Error:" + e.getMessage());
+            }
         */
     }
 }
