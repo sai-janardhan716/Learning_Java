@@ -59,6 +59,11 @@ public class Custom_Exceptions {
             }catch(InsufficientFundsException e){
                 System.out.println("Error: "+e.getMessage());
             }
+
+            -> Explanation:
+               - InsufficientFundsException extends Exception, so it's a checked exception.
+               - withdraw() declares throws InsufficientFundsException.
+               - Caller must handle it in a try-catch.
         */
    } 
 }
