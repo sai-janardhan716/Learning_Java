@@ -65,5 +65,24 @@ public class Custom_Exceptions {
                - withdraw() declares throws InsufficientFundsException.
                - Caller must handle it in a try-catch.
         */
+
+        /*
+            Example 2: Unchecked Custom Exception:-
+            class InvalidAgeException extends RuntimeException{
+                InvalidAgeException(String msg){
+                    super(msg);
+                }
+            }
+            class VoterRegistration{
+                void register(int age){
+                    if (age<18) {
+                        throw new InvalidAgeException("Age must be 18 or above");
+                    }
+                    System.out.println("Registration successful");
+                }
+            }
+            VoterRegistration v =new VoterRegistration();
+            v.register(16);   // no throws required, but will crash at runtime if not caught
+        */
    } 
 }
