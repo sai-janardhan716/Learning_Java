@@ -88,5 +88,21 @@ public class Custom_Exceptions {
                - No need for throws in method signature.
                - Can still catch it if we want.
         */
+
+        /*
+            When to Use Custom Exceptions:-
+            -> When the built-in exceptions don't clearly describe the problem.
+            -> To create more readable and maintainable code.
+            -> To propagate meaningful error information back to the caller.
+
+            Best Practices:-
+            -> Give descriptive names ending with Exception.
+            -> Provide multiple constructors:
+               - Default
+               - With message
+               - With message and cause (super(message, cause))
+            -> Keep exception classes small only add fields/methods if needed.
+            -> Document when the exception can be thrown.
+        */
    } 
 }
