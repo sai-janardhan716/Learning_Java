@@ -15,5 +15,20 @@ public class Custom_Exceptions {
                -> If you extend RuntimeException, it's unchecked
                   -> No need to declare or handle explicitly.
         */
+        /*
+            Syntax:-
+            // Checked Exception
+            class MyException extends Exception {
+                MyException(String message){
+                    super(message);
+                }
+            }
+            // Unchecked Exception
+            class MyRuntimeException extends RuntimeExceptio{
+                MyRuntimeException(String message) {
+                    super(message);
+                }
+            }
+        */
    } 
 }
