@@ -83,6 +83,10 @@ public class Custom_Exceptions {
             }
             VoterRegistration v =new VoterRegistration();
             v.register(16);   // no throws required, but will crash at runtime if not caught
+            -> Explanation:
+               - Extends RuntimeException, so it's unchecked.
+               - No need for throws in method signature.
+               - Can still catch it if we want.
         */
    } 
 }
