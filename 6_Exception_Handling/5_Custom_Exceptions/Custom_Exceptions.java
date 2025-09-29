@@ -29,6 +29,11 @@ public class Custom_Exceptions {
                     super(message);
                 }
             }
+
+            Steps to Create & Use a Custom Exception:-
+            1) Define the custom exception class by extending Exception or RuntimeException.
+            2) Throw it where appropriate using the throw keyword.
+            3) Handle it with try-catch or declare it with throws.
         */
    } 
 }
