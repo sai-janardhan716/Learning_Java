@@ -35,5 +35,30 @@ public class Custom_Exceptions {
             2) Throw it where appropriate using the throw keyword.
             3) Handle it with try-catch or declare it with throws.
         */
+        /*
+            Example 1: Checked Custom Exception:- 
+            // User-defined exception for insufficient funds
+            class InsufficientFundsException extends Exception{
+                InsufficientFundsException(String msg){
+                    super(msg);
+                }
+            }
+            class BankAccount{
+                private double balance = 10000000000;
+                void withdraw(double amount) throws InsufficientFundsException{
+                    if (amount>balance) {
+                        throw new InsufficientFundsException("Balance only "+balance +",cannot withdraw " + amount);
+                    }
+                    balance-=amount;
+                    System.out.println("Withdraw successful, remaining balance: " + balance);
+                }
+            }
+            BankAccount acc = new BankAccount();
+            try{
+                acc.withdraw(1500);
+            }catch(InsufficientFundsException e){
+                System.out.println("Error: "+e.getMessage());
+            }
+        */
    } 
 }
