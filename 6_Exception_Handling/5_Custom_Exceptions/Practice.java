@@ -104,6 +104,25 @@ public class Practice {
         }catch (NegativeNumberException e){
             System.out.println("Error: "+e.getMessage());
         }
+
+        4)
+        class WeakPasswordException extends RuntimeException{
+            public WeakPasswordException(String msg){super(msg); }
+        }
+        class PasswordValidator{
+            public void validatePassword(String pass){
+                if(pass.length()<8||!pass.matches(".*\\d.*")||!pass.matches(".*[^a-zA-Z0-9].*"))
+                    throw new WeakPasswordException("Password must be >=8 chars, include a digit & special char");
+                System.out.println("Strong password");
+            }
+        }
+        In Main
+        try{
+            System.out.print("Enter password:");
+            new PasswordValidator().validatePassword(sc.nextLine());
+        }catch (WeakPasswordException e){
+            System.out.println("Error: "+e.getMessage());
+        }
     */
     }
 }
