@@ -1,3 +1,4 @@
+// import java.util.Scanner;
 public class Practice {
     public static void main(String[] args) {
     /*
@@ -82,6 +83,26 @@ public class Practice {
             new FileChecker().checkFile(sc.nextLine());
         } catch (InvalidFileExtensionException e){
             System.out.println("Error: "+ e.getMessage());
+        }
+
+        3)
+        class NegativeNumberException extends Exception{
+            public NegativeNumberException(String msg){ super(msg);}
+        }
+        class MathHelper{
+            public double findSquareRoot(double num) throws NegativeNumberException{
+                if(num< 0) throw new NegativeNumberException("Cannot find square root of negative number");
+                return Math.sqrt(num);
+            }
+        }
+        In main
+        try{
+            System.out.print("Enter a number for square root: ");
+            double num=sc.nextDouble();
+            double res=new MathHelper().findSquareRoot(num);
+            System.out.println("Square root: " +res);
+        }catch (NegativeNumberException e){
+            System.out.println("Error: "+e.getMessage());
         }
     */
     }
