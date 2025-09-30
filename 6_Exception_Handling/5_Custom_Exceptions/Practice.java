@@ -123,6 +123,25 @@ public class Practice {
         }catch (WeakPasswordException e){
             System.out.println("Error: "+e.getMessage());
         }
+
+        5)
+        class LowScoreException extends Exception{
+            public LowScoreException(String msg){super(msg); }
+        }
+        class Admission{
+            public void applyForAdmission(double marks) throws LowScoreException{
+                if(marks<60) throw new LowScoreException("Score too low for admission");
+                System.out.println("Admission granted");
+            }
+        }
+        In main
+        try{
+            System.out.print("Enter marks: ");
+            double marks=sc.nextDouble();
+            new Admission().applyForAdmission(marks);
+        } catch(LowScoreException e){
+            System.out.println("Error: "+e.getMessage());
+        }
     */
     }
 }
