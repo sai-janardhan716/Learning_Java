@@ -64,6 +64,25 @@ public class Practice {
         } catch(InvalidUsernameException e){
             System.out.println("Error:"+e.getMessage());
         }
+
+        2)
+        class InvalidFileExtensionException extends Exception{
+            public InvalidFileExtensionException(String msg){ super(msg);}
+        }
+        class FileChecker{
+            public void checkFile(String fileName) throws InvalidFileExtensionException{
+                if(!fileName.endsWith(".txt"))
+                    throw new InvalidFileExtensionException("File must have .txt extension");
+                System.out.println("Valid file: " +fileName);
+            }
+        }
+        In main
+        try{
+            System.out.print("Enter file name:");
+            new FileChecker().checkFile(sc.nextLine());
+        } catch (InvalidFileExtensionException e){
+            System.out.println("Error: "+ e.getMessage());
+        }
     */
     }
 }
