@@ -142,6 +142,28 @@ public class Practice {
         } catch(LowScoreException e){
             System.out.println("Error: "+e.getMessage());
         }
+
+        6)
+        class DivisionByZeroException extends RuntimeException{
+            public DivisionByZeroException(String msg){super(msg); }
+        }
+        class Divider{
+            public int divide(int a, int b){
+                if(b==0) throw new DivisionByZeroException("Cannot divide by zero");
+                return a/b;
+            }
+        }
+        In main
+        try{
+            System.out.print("Enter numerator: ");
+            int a =sc.nextInt();
+            System.out.print("Enter denominator: ");
+            int b=sc.nextInt();
+            int result = new Divider().divide(a, b);
+            System.out.println("Result: "+result);
+        }catch (DivisionByZeroException e){
+            System.out.println("Error: "+e.getMessage());
+        }
     */
     }
 }
