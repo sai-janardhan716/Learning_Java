@@ -1,6 +1,6 @@
 public class Practice {
     public static void main(String[] args) {
-/*
+    /*
         //Problems
         1) Username Validation
         -------------------
@@ -43,6 +43,6 @@ public class Practice {
         -> Define a custom unchecked exception DivisionByZeroException.
         -> Method divide(int a, int b) should throw it if b == 0.
         -> Handle in main() and display a clear error message.
-*/
+    */
     }
 }
