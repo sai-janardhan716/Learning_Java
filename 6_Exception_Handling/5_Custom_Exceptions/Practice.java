@@ -44,5 +44,26 @@ public class Practice {
         -> Method divide(int a, int b) should throw it if b == 0.
         -> Handle in main() and display a clear error message.
     */
+    //Solutions
+    /*
+        1)
+        class InvalidUsernameException extends RuntimeException{
+            public InvalidUsernameException(String msg){ super(msg); }
+        }
+        class UsernameValidator{
+            public void validate(String username){
+                if(username.length()<6||username.contains(" "))
+                    throw new InvalidUsernameException("Username must be >=6 chars and contain no spaces");
+                System.out.println("Valid username");
+            }
+        }
+        In main
+        try{
+            System.out.print("Enter username: ");
+            new UsernameValidator().validate(sc.nextLine());
+        } catch(InvalidUsernameException e){
+            System.out.println("Error:"+e.getMessage());
+        }
+    */
     }
 }
