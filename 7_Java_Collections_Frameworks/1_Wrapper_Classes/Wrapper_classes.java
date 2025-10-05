@@ -23,6 +23,8 @@ public class Wrapper_classes {
             +----------------+---------------+
             -> Remember java is case sensitive, for primitives we will write all small letters
             for wrapper classes first letter is capital remaining all are small letters.
+            ->  int a = 10; (Primitive data types syntax)
+                Integer b = 30; (wrapper syntax)
         */
     }
 }
