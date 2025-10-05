@@ -52,6 +52,9 @@ public class Wrapper_classes {
             int num = obj;        // Unboxing: object -> primitive
             System.out.println("Wrapper Object:"+ obj);
             System.out.println("Primitive: "+num);
+            
+            Explanation:
+            -> The compiler converts obj into obj.intValue() automatically during assignment.
         */
     }
 }
