@@ -42,5 +42,11 @@ public class Wrapper_classes {
             -> No need for manual conversion.
             -> Integer is a class which contains calueOf method that stores the primitive value in wrapper object.
         */
+
+        /*
+        2) Unboxing
+        -> The process of automatically converting a wrapper class object back into its primitive data type.
+        -> Also handled automatically by the compiler.
+        */
     }
 }
