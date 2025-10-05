@@ -7,5 +7,22 @@ public class Wrapper_classes {
             -> To convert primitive data types into objects and vice versa.
             -> Useful for working with data structures (like ArrayList, HashMap) that store objects only.
         */
+        /*
+            Primitive Types & Their Wrapper Classes
+            +----------------+---------------+
+            | Primitive Type | Wrapper Class |
+            +----------------+---------------+
+            | byte           | Byte          |
+            | short          | Short         |
+            | int            | Integer       |
+            | long           | Long          |
+            | float          | Float         |
+            | double         | Double        |
+            | char           | Character     |
+            | boolean        | Boolean       |
+            +----------------+---------------+
+            -> Remember java is case sensitive, for primitives we will write all small letters
+            for wrapper classes first letter is capital remaining all are small letters.
+        */
     }
 }
