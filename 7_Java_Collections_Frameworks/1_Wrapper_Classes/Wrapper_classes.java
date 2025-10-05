@@ -47,6 +47,11 @@ public class Wrapper_classes {
         2) Unboxing
         -> The process of automatically converting a wrapper class object back into its primitive data type.
         -> Also handled automatically by the compiler.
+        EG:-
+        Integer obj = 50;     // Autoboxing
+        int num = obj;        // Unboxing: object -> primitive
+        System.out.println("Wrapper Object:"+ obj);
+        System.out.println("Primitive: "+num);
         */
     }
 }
