@@ -36,6 +36,11 @@ public class Wrapper_classes {
             Integer b = a;  // Autoboxing: primitive -> object
             System.out.println("Primitive: " +a);
             System.out.println("Wrapper Object: "+b);
+
+            Explanation:
+            -> The compiler automatically converts int a into Integer.valueOf(a) behind the scenes.
+            -> No need for manual conversion.
+            -> Integer is a class which contains calueOf method that stores the primitive value in wrapper object.
         */
     }
 }
