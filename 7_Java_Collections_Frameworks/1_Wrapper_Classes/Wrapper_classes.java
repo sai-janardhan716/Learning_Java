@@ -26,5 +26,11 @@ public class Wrapper_classes {
             ->  int a = 10; (Primitive data types syntax)
                 Integer b = 30; (wrapper syntax)
         */
+        /*
+        ->  we can able to convert the primitives to wrappers and wrappers to primitives by these two inbuilt methods
+        1) Autoboxing
+            -> The process of automatically converting a primitive data type into its corresponding wrapper class object.
+            -> Done automatically by the Java compiler.
+        */
     }
 }
