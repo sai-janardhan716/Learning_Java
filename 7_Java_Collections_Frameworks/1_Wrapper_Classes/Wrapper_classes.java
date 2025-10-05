@@ -31,6 +31,11 @@ public class Wrapper_classes {
         1) Autoboxing
             -> The process of automatically converting a primitive data type into its corresponding wrapper class object.
             -> Done automatically by the Java compiler.
+        EG:-
+        int a = 10;
+        Integer b = a;  // Autoboxing: primitive -> object
+        System.out.println("Primitive: " +a);
+        System.out.println("Wrapper Object: "+b);
         */
     }
 }
