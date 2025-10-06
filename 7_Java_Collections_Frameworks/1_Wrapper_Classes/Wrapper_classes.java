@@ -87,7 +87,13 @@ public class Wrapper_classes {
         Integer obj=Integer.valueOf(num);
         System.out.println("String to int: "+num);
         System.out.println("int to Integer: "+obj);
-        System.out.println("Integer to String: " +obj.toString());
+        System.out.println("Integer to String: " +obj.toString());\
+        Integer num1=10;
+        Integer num2 = 20;
+        Integer num3 = 10;
+        System.out.println("num1.compareTo(num2): "+num1.compareTo(num2));  // -1 (10 < 20)
+        System.out.println("num2.compareTo(num1): "+num2.compareTo(num1));  // +1 (20 > 10)
+        System.out.println("num1.compareTo(num3): "+num1.compareTo(num3));  // 0  (10 == 10)
         */
     }
 }
