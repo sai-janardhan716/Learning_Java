@@ -94,7 +94,11 @@ public class Wrapper_classes {
             Integer num3 = 10;
             System.out.println("num1.compareTo(num2): "+num1.compareTo(num2));  // -1 (10 < 20)
             System.out.println("num2.compareTo(num1): "+num2.compareTo(num1));  // +1 (20 > 10)
-            System.out.println("num1.compareTo(num3): "+num1.compareTo(num3));  // 0  (10 == 10)
+            System.out.println("num1.equals(num3): "+num1.equals(num3));  // 0  (10 == 10)
+        */
+
+        /*
+
         */
     }
 }
