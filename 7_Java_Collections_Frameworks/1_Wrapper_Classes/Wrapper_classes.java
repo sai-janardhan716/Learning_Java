@@ -58,11 +58,10 @@ public class Wrapper_classes {
         */
 
         /*
-        3) Manual Conversion (There is a method of conversion Before Java 5(before auto and unboxing))
-            -> Before autoboxing/unboxing (Java 1.4 and below), conversions had to be done manually using methods like:
-            1. Integer.valueOf() (for converting primitive int to Wrapper object Integer)
-            2. intValue() (for converting Wrapper object Integer to primitive int )
-            
+            3) Manual Conversion (There is a method of conversion Before Java 5(before auto and unboxing))
+                -> Before autoboxing/unboxing (Java 1.4 and below), conversions had to be done manually using methods like:
+                1. Integer.valueOf() (for converting primitive int to Wrapper object Integer)
+                2. intValue() (for converting Wrapper object Integer to primitive int )
             EG:-
             int a = 20;
             Integer obj = Integer.valueOf(a);   // manual boxing
