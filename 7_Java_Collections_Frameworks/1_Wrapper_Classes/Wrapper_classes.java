@@ -80,6 +80,14 @@ public class Wrapper_classes {
         |  compareTo()         | Compares two wrapper objects         |
         |  equals()            | Compares equality of wrapper objects |
         +----------------------+--------------------------------------+
+
+        EG:-
+        String s= "716";
+        int num=Integer.parseInt(s);
+        Integer obj=Integer.valueOf(num);
+        System.out.println("String to int: "+num);
+        System.out.println("int to Integer: "+obj);
+        System.out.println("Integer to String: " +obj.toString());
         */
     }
 }
