@@ -98,7 +98,11 @@ public class Wrapper_classes {
         */
 
         /*
-
+            Advantages:-
+            -> Easier interaction between primitives and objects
+            -> Simplifies working with Collections and Generics
+            -> Cleaner, more readable code
+            -> Reduces boilerplate conversions
         */
     }
 }
