@@ -103,6 +103,11 @@ public class Wrapper_classes {
             -> Simplifies working with Collections and Generics
             -> Cleaner, more readable code
             -> Reduces boilerplate conversions
+
+
+            Disadvantages
+            -> Slight performance overhead (extra object creation)
+            -> Potential for NullPointerException if unboxing a null object
         */
     }
 }
