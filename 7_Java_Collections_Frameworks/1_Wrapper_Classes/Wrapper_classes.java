@@ -69,31 +69,32 @@ public class Wrapper_classes {
         */
 
         /*
-        Wrapper Class Methods
-        -> There are some usefiul methods in wrapper classes for doing some operations on wrapper class data. They are
-        +----------------------+--------------------------------------+
-        | Method               | Description                          |
-        +----------------------+--------------------------------------+
-        |  parseInt(String s)  | Converts String to int               |
-        |  valueOf(String s)   | Converts String to Wrapper object    |
-        |  toString()          | Converts value to String             |
-        |  compareTo()         | Compares two wrapper objects         |
-        |  equals()            | Compares equality of wrapper objects |
-        +----------------------+--------------------------------------+
+            Wrapper Class Methods:-
 
-        EG:-
-        String s= "716";
-        int num=Integer.parseInt(s);
-        Integer obj=Integer.valueOf(num);
-        System.out.println("String to int: "+num);
-        System.out.println("int to Integer: "+obj);
-        System.out.println("Integer to String: " +obj.toString());\
-        Integer num1=10;
-        Integer num2 = 20;
-        Integer num3 = 10;
-        System.out.println("num1.compareTo(num2): "+num1.compareTo(num2));  // -1 (10 < 20)
-        System.out.println("num2.compareTo(num1): "+num2.compareTo(num1));  // +1 (20 > 10)
-        System.out.println("num1.compareTo(num3): "+num1.compareTo(num3));  // 0  (10 == 10)
+            -> There are some usefiul methods in wrapper classes for doing some operations on wrapper class data. They are
+            +----------------------+--------------------------------------+
+            | Method               | Description                          |
+            +----------------------+--------------------------------------+
+            |  parseInt(String s)  | Converts String to int               |
+            |  valueOf(String s)   | Converts String to Wrapper object    |
+            |  toString()          | Converts value to String             |
+            |  compareTo()         | Compares two wrapper objects         |
+            |  equals()            | Compares equality of wrapper objects |
+            +----------------------+--------------------------------------+
+
+            EG:-
+            String s= "716";
+            int num=Integer.parseInt(s);
+            Integer obj=Integer.valueOf(num);
+            System.out.println("String to int: "+num);
+            System.out.println("int to Integer: "+obj);
+            System.out.println("Integer to String: " +obj.toString());\
+            Integer num1=10;
+            Integer num2 = 20;
+            Integer num3 = 10;
+            System.out.println("num1.compareTo(num2): "+num1.compareTo(num2));  // -1 (10 < 20)
+            System.out.println("num2.compareTo(num1): "+num2.compareTo(num1));  // +1 (20 > 10)
+            System.out.println("num1.compareTo(num3): "+num1.compareTo(num3));  // 0  (10 == 10)
         */
     }
 }
