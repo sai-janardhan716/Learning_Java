@@ -67,5 +67,19 @@ public class Wrapper_classes {
             Integer obj = Integer.valueOf(a);   // manual boxing
             int num = obj.intValue();           // manual unboxing
         */
+
+        /*
+        Wrapper Class Methods
+        -> There are some usefiul methods in wrapper classes for doing some operations on wrapper class data. They are
+        +----------------------+--------------------------------------+
+        | Method               | Description                          |
+        +----------------------+--------------------------------------+
+        |  parseInt(String s)  | Converts String to int               |
+        |  valueOf(String s)   | Converts String to Wrapper object    |
+        |  toString()          | Converts value to String             |
+        |  compareTo()         | Compares two wrapper objects         |
+        |  equals()            | Compares equality of wrapper objects |
+        +----------------------+--------------------------------------+
+        */
     }
 }
