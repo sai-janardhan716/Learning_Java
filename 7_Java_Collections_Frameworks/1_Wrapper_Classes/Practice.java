@@ -1,0 +1,35 @@
+public class Practice {
+    public static void main(String[] args) {
+        //Problems
+        /*
+            1) IntegerSum
+            • Read two integers from the user as primitive types.
+            • Convert them into Integer wrapper objects using autoboxing.
+            • Add the two wrapper objects and display the sum.
+
+            2) CompareValues
+            • Create two Integer objects: one using autoboxing and another using new Integer().
+            • Compare them using both equals() and compareTo().
+            • Print the results and explain the difference.
+
+            3) DoubleConversion
+            • Read a double value from the user.
+            • Convert it into a Double wrapper object.
+            • Unbox it back into a primitive double and print both values.
+
+            4) CharacterCheck
+            • Read a character input from the user.
+            • Convert it into a Character wrapper object.
+            • Use Character class methods to check:
+                -> if it is a letter
+                -> if it is a digit
+                -> if it is uppercase or lowercase.
+
+            5) ParseAndValueOf
+            • Take a string input containing a number, e.g., "123".
+            • Convert it into an int using Integer.parseInt().
+            • Also, convert it into an Integer object using Integer.valueOf().
+            • Print both and explain the difference.
+        */
+    }
+}
