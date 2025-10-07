@@ -67,6 +67,14 @@ public class Practice {
             System.out.println("Is digit? " + Character.isDigit(c));
             System.out.println("Is uppercase? "+ Character.isUpperCase(c));
             System.out.println("Is lowercase? "+Character.isLowerCase(c));
+
+            5)
+            System.out.print("Enter a numeric string: ");
+            String str =sc.nextLine();
+            int parsedInt=Integer.parseInt(str);
+            Integer valueOfInt = Integer.valueOf(str);
+            System.out.println("Parsed int: "+parsedInt);
+            System.out.println("ValueOf Integer: "+valueOfInt);
         */
     }
 }
