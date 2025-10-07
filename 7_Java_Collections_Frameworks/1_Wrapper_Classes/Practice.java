@@ -58,6 +58,15 @@ public class Practice {
             double unboxedD =wrapperD;
             System.out.println("Wrapper Double: "+wrapperD);
             System.out.println("Primitive double after unboxing: "+unboxedD);
+
+            4)
+            System.out.print("Enter a character: ");
+            char ch=sc.next().charAt(0);
+            Character c =ch;
+            System.out.println("Is letter? "+Character.isLetter(c));
+            System.out.println("Is digit? " + Character.isDigit(c));
+            System.out.println("Is uppercase? "+ Character.isUpperCase(c));
+            System.out.println("Is lowercase? "+Character.isLowerCase(c));
         */
     }
 }
