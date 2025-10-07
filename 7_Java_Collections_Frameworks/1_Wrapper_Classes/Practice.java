@@ -43,6 +43,13 @@ public class Practice {
             Integer num2 = b;
             Integer sum = num1+num2;
             System.out.println("Sum = "+sum);
+
+            2)
+            Integer n1=100;
+            Integer n2=new Integer(100);
+            System.out.println("equals() result: "+n1.equals(n2));
+            System.out.println("compareTo() result: "+n1.compareTo(n2));
+            System.out.println("== result: " +(n1==n2));
         */
     }
 }
