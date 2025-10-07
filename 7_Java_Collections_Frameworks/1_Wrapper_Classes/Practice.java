@@ -50,6 +50,14 @@ public class Practice {
             System.out.println("equals() result: "+n1.equals(n2));
             System.out.println("compareTo() result: "+n1.compareTo(n2));
             System.out.println("== result: " +(n1==n2));
+
+            3)
+            System.out.print("Enter a double value: ");
+            double d =sc.nextDouble();
+            Double wrapperD=d;
+            double unboxedD =wrapperD;
+            System.out.println("Wrapper Double: "+wrapperD);
+            System.out.println("Primitive double after unboxing: "+unboxedD);
         */
     }
 }
