@@ -1,3 +1,4 @@
+// import java.util.Scanner;
 public class Practice {
     public static void main(String[] args) {
         //Problems
@@ -30,6 +31,18 @@ public class Practice {
             • Convert it into an int using Integer.parseInt().
             • Also, convert it into an Integer object using Integer.valueOf().
             • Print both and explain the difference.
+        */
+        //Solutions
+        /*  1)
+            Scanner sc=new Scanner(System.in);
+            System.out.print("Enter first integer: ");
+            int a=sc.nextInt();
+            System.out.print("Enter second integer: ");
+            int b =sc.nextInt();
+            Integer num1=a;
+            Integer num2 = b;
+            Integer sum = num1+num2;
+            System.out.println("Sum = "+sum);
         */
     }
 }
