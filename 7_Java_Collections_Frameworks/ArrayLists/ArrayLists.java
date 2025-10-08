@@ -7,6 +7,10 @@ public class ArrayLists {
             -> Unlike arrays, ArrayList can grow or shrink dynamically.
             -> It allows duplicate elements and maintains insertion order.
             -> It can store elements of any data type (by using generics only).
+
+            Syntax:
+            import java.util.ArrayList; to use the arraylist we need to import ArrayList Package in util in java
+            ArrayList<Type> list = new ArrayList<>();
         */
     }
 }
