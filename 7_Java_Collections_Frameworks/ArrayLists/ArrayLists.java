@@ -88,6 +88,10 @@ public class ArrayLists {
             -> ArrayList maintains insertion order.
             -> It is slower than arrays for primitive operations, but flexible.
             -> It is a part of java.util package.
+            - Use ArrayList when:
+                -> You don’t know the size in advance.
+                -> You need frequent insertions/removals.
+                -> You want dynamic resizing with index-based access.
         */
     }
 }
