@@ -30,5 +30,23 @@ public class ArrayLists {
             8) isEmpty()                  -> Checks if the list is empty.
             9) clear()                    -> Removes all elements.
         */
+
+        //Examples
+        /*
+            EG1:-
+            ArrayList<String> fruits = new ArrayList<>();
+            fruits.add("Apple");
+            fruits.add("Banana");
+            fruits.add("Cherry");
+            System.out.println("Fruits: " + fruits);
+            fruits.add(1, "Mango");                             // Insert at index 1
+            System.out.println("After insertion: " + fruits);
+            System.out.println("Element at index 2: " + fruits.get(2));
+            fruits.set(2, "Orange");                            // Update element
+            System.out.println("After update: " + fruits);
+            fruits.remove(0);                                   // Remove first element
+            System.out.println("After removal: " + fruits);
+            System.out.println("List size: " + fruits.size());  // Returns length of arraylist
+        */
     }
 }
