@@ -17,5 +17,18 @@ public class ArrayLists {
             ArrayList<String> names = new ArrayList<>();
             ArrayList<Double> marks = new ArrayList<>();
         */
+
+        /*
+            Important Methods in ArrayList
+            1) add(element)               -> Adds an element at the end.
+            2) add(index, element)        -> Inserts an element at the specified position.
+            3) get(index)                 -> Returns the element at the specified index.
+            4) set(index, element)        -> Replaces the element at the specified index.
+            5) remove(index)              -> Removes the element at the specified index.
+            6) size()                     -> Returns the number of elements in the list.
+            7) contains(element)          -> Checks if the element exists in the list.
+            8) isEmpty()                  -> Checks if the list is empty.
+            9) clear()                    -> Removes all elements.
+        */
     }
 }
