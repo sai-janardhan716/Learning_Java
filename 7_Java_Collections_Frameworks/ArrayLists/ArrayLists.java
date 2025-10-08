@@ -81,5 +81,13 @@ public class ArrayLists {
                 strList.add("Python");
                 strList.add(100);   error (Compile-time error because we are trying to add an integer in string type arraylist)
         */
+
+        //Notes
+        /*
+            -> ArrayList allows duplicate elements.
+            -> ArrayList maintains insertion order.
+            -> It is slower than arrays for primitive operations, but flexible.
+            -> It is a part of java.util package.
+        */
     }
 }
