@@ -70,6 +70,16 @@ public class ArrayLists {
             while (it.hasNext()) {
                 System.out.println(it.next());
             }
+
+            EG3:-
+            ArrayList<Integer> intList = new ArrayList<>();
+            ArrayList<String> strList = new ArrayList<>();
+            ArrayList<Double> dblList = new ArrayList<>();
+            -> Generics ensure type safety (you can’t mix data types).
+            -> Example:
+                strList.add("Java");
+                strList.add("Python");
+                strList.add(100);   error (Compile-time error because we are trying to add an integer in string type arraylist)
         */
     }
 }
