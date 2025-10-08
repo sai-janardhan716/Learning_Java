@@ -11,6 +11,11 @@ public class ArrayLists {
             Syntax:
             import java.util.ArrayList; to use the arraylist we need to import ArrayList Package in util in java
             ArrayList<Type> list = new ArrayList<>();
+
+            Example:
+            ArrayList<Integer> numbers = new ArrayList<>();
+            ArrayList<String> names = new ArrayList<>();
+            ArrayList<Double> marks = new ArrayList<>();
         */
     }
 }
