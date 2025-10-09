@@ -1,7 +1,7 @@
-import java.util.*;
+// import java.util.*;
 public class Pracice {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         //Problems
         /*
             1) AddAndDisplay
@@ -111,6 +111,6 @@ anardhan
         // for (String color :colorArray) {
         //     System.out.println(color);
         // }
-        sc.close();
+        // sc.close();
     }
 }
