@@ -99,6 +99,18 @@ anardhan
         // System.out.println("Original List: " + nums);
         // Collections.reverse(nums);
         // System.out.println("Reversed List: " + nums);
+
+        //6
+        // ArrayList<String> colors = new ArrayList<>();
+        // colors.add("Red");
+        // colors.add("Blue");
+        // colors.add("Green");
+        // colors.add("White");
+        // String[] colorArray = colors.toArray(String[]::new);
+        // System.out.println("Array Elements:");
+        // for (String color :colorArray) {
+        //     System.out.println(color);
+        // }
         sc.close();
     }
 }
