@@ -78,6 +78,16 @@ anardhan
         //     System.out.println(searchName + " not found in the list.");
         // }
 
+        //4
+        // ArrayList<Integer> list = new ArrayList<>();
+        // list.add(45);
+        // list.add(12);
+        // list.add(78);
+        // list.add(23);
+        // list.add(56);
+        // System.out.print("Before Sorting: " + list);
+        // Collections.sort(list);
+        // System.out.print("After Sorting: " + list);
         sc.close();
     }
 }
