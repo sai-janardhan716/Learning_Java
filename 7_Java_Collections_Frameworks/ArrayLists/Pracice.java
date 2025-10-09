@@ -51,5 +51,16 @@ anardhan
         // for (String name : arr) {
         //     System.out.print(name+" ");
         // }
+
+        //2
+        // ArrayList<Integer> nums = new ArrayList<>();
+        // nums.add(10);
+        // nums.add(20);
+        // nums.add(30);
+        // nums.add(40);
+        // nums.add(50);
+        // nums.remove(1);
+        // nums.set(nums.size() - 1, 99);
+        // System.out.println("\nUpdated Numbers List: " + nums);
     }
 }
