@@ -1,6 +1,7 @@
-import java.util.ArrayList;
+import java.util.*;
 public class Pracice {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         //Problems
         /*
             1) AddAndDisplay
@@ -62,5 +63,21 @@ anardhan
         // nums.remove(1);
         // nums.set(nums.size() - 1, 99);
         // System.out.println("\nUpdated Numbers List: " + nums);
+
+        //3
+        // ArrayList<String> names = new ArrayList<>();
+        // names.add("Alapati");
+        // names.add("Ganesh");
+        // names.add("Sai");
+        // names.add("Janardhan");
+        // System.out.print("Enter a name to search: ");
+        // String searchName = sc.nextLine();
+        // if(names.contains(searchName)){
+        //     System.out.println(searchName + " found in the list.");
+        // }else{
+        //     System.out.println(searchName + " not found in the list.");
+        // }
+
+        sc.close();
     }
 }
