@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class Pracice {
     public static void main(String[] args) {
         //Problems
@@ -31,12 +32,24 @@ public class Pracice {
             • Add elements into it.
             • Reverse the list using Collections.reverse().
             • Display both original and reversed lists.
-
+anardhan
             6) ConvertToArray
             • Create an ArrayList of Strings.
             • Add color names into it.
             • Convert the ArrayList into an array.
             • Display all elements of the array.
         */
+
+        //Solutions
+        //1
+        // ArrayList<String> arr = new ArrayList<>();
+        // arr.add("Ganesh");
+        // arr.add("Pavana");
+        // arr.add("Sutha");
+        // arr.add("Sai");
+        // arr.add("Janardhan");
+        // for (String name : arr) {
+        //     System.out.print(name+" ");
+        // }
     }
 }
