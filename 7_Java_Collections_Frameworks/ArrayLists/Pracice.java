@@ -88,6 +88,17 @@ anardhan
         // System.out.print("Before Sorting: " + list);
         // Collections.sort(list);
         // System.out.print("After Sorting: " + list);
+
+        //5
+        // ArrayList<Integer> nums = new ArrayList<>();
+        // nums.add(1);
+        // nums.add(2);
+        // nums.add(3);
+        // nums.add(4);
+        // nums.add(5);
+        // System.out.println("Original List: " + nums);
+        // Collections.reverse(nums);
+        // System.out.println("Reversed List: " + nums);
         sc.close();
     }
 }
