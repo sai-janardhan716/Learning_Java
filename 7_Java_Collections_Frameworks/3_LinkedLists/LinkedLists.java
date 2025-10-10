@@ -29,5 +29,23 @@ public class LinkedLists {
             -> Slower in random access than ArrayList because traversal is sequential.
             -> Faster in insertion and deletion compared to ArrayList.
         */
+
+        //Methods
+        /*
+            add(E e)                → Adds element at the end.
+            addFirst(E e)           → Adds element at the beginning.
+            addLast(E e)            → Adds element at the end (same as add()).
+            remove()                → Removes the first element.
+            remove(int index)       → Removes element at given index.
+            removeFirst()           → Removes first element.
+            removeLast()            → Removes last element.
+            get(int index)          → Returns element at index.
+            getFirst()              → Returns first element.
+            getLast()               → Returns last element.
+            set(int index, E e)     → Replaces element at index.
+            contains(Object o)      → Checks if element exists.
+            size()                  → Returns number of elements.
+            clear()                 → Removes all elements.
+        */
     }    
 }
