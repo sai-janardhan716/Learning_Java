@@ -13,6 +13,13 @@ public class LinkedLists {
 
             Syntax:-
             LinkedList<Type> listName = new LinkedList<>();
+
+            Example:-
+            LinkedList<String> fruits = new LinkedList<>();
+            fruits.add("Apple");
+            fruits.add("Banana");
+            fruits.add("Pomegrenate");
+            System.out.println(fruits);
         */
     }    
 }
