@@ -47,5 +47,21 @@ public class LinkedLists {
             size()                  → Returns number of elements.
             clear()                 → Removes all elements.
         */
+
+        //When to use LinkedList over ArrayList:
+        /*
+            -> Use LinkedList when:
+                - You perform frequent insertion/deletion (especially at beginning or middle).
+                - Random access is not required often.
+            -> Use ArrayList when:
+                - You need faster access and less memory usage.
+                - Insertions/deletions are rare.
+        */
+        //Time Complexity:-
+        /*
+            Insertion/Deletion at beginning: O(1)
+            Insertion/Deletion at end: O(1)
+            Search/Access by index: O(n)
+        */
     }    
 }
