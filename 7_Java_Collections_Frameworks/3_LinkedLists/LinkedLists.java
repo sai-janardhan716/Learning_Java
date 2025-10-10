@@ -10,6 +10,9 @@ public class LinkedLists {
                    - Address of previous node
                    - Address of next node
             -> It is useful when frequent insertions and deletions are required.
+
+            Syntax:-
+            LinkedList<Type> listName = new LinkedList<>();
         */
     }    
 }
