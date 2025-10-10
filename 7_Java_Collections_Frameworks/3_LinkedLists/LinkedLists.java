@@ -20,6 +20,14 @@ public class LinkedLists {
             fruits.add("Banana");
             fruits.add("Pomegrenate");
             System.out.println(fruits);
+
+            Key Points:-
+            -> Allows duplicates.
+            -> Maintains insertion order.
+            -> Can store null elements.
+            -> Implements List, Queue, and Deque interfaces.
+            -> Slower in random access than ArrayList because traversal is sequential.
+            -> Faster in insertion and deletion compared to ArrayList.
         */
     }    
 }
