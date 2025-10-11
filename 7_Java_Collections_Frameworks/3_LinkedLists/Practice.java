@@ -36,5 +36,20 @@ public class Practice {
         cities.addFirst("Tenali");
         cities.addLast("Delhi");
         System.out.println("After Insertion: " + cities);
+
+        //2
+        LinkedList<Integer> numbers = new LinkedList<>();
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+        numbers.add(40);
+        numbers.add(50);
+        System.out.println("Original List: " + numbers);
+        numbers.removeFirst();
+        System.out.println("After removing first: " + numbers);
+        numbers.removeLast();
+        System.out.println("After removing last: " + numbers);
+        numbers.remove(1);
+        System.out.println("After removing index 1: " + numbers);
     }
 }
