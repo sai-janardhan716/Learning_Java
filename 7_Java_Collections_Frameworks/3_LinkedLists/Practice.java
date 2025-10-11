@@ -51,5 +51,16 @@ public class Practice {
         System.out.println("After removing last: " + numbers);
         numbers.remove(1);
         System.out.println("After removing index 1: " + numbers);
+
+        //3
+        LinkedList<String> students = new LinkedList<>();
+        students.add("Alapati");
+        students.add("Ganesh");
+        students.add("Pavan");
+        students.add("SUtha");
+        System.out.println("Before Update: " + students);
+        students.set(1, "Janardhan");
+        students.set(students.size() - 1, "Sai");
+        System.out.println("After Update: " + students);
     }
 }
