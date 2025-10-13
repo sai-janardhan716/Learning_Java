@@ -18,5 +18,17 @@ public class HashMapHashSet {
         // Syntax
         // HashMap<KeyType, ValueType> map = new HashMap<>();
         // HashSet<Type> set = new HashSet<>();
+
+        // Key Points
+        /*
+            | Feature         | HashMap                              | HashSet                              |
+            | --------------- | ------------------------------------ | ------------------------------------ |
+            | Stores          | Key-Value pairs                      | Only values                          |
+            | Duplicates      | Keys not allowed (Values can repeat) | No duplicate elements                |
+            | Null            | One null key allowed                 | One null element allowed             |
+            | Order           | No guarantee of order                | No guarantee of order                |
+            | Implementation  | Uses Hash Table                      | Internally uses HashMap              |
+            | Time Complexity | O(1) average for insert/get/remove   | O(1) average for add/remove/contains |
+        */
     }    
 }
