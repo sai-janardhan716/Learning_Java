@@ -78,5 +78,20 @@ public class HashMapHashSet {
         set.remove("C++");
         System.out.println("After removal: " + set);
         System.out.println("Contains Java? " + set.contains("Java"));
+
+        // Note:-
+        /*
+            HashMap:-
+            -> Stores key-value pairs
+            -> No duplicate keys
+            -> Access by key
+            -> Average O(1) operations
+
+            HashSet:-
+            -> Stores unique elements
+            -> No duplicates
+            -> Internally uses HashMap
+            -> Average O(1) operations
+        */
     }    
 }
