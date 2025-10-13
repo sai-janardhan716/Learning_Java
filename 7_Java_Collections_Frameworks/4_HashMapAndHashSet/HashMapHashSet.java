@@ -30,5 +30,32 @@ public class HashMapHashSet {
             | Implementation  | Uses Hash Table                      | Internally uses HashMap              |
             | Time Complexity | O(1) average for insert/get/remove   | O(1) average for add/remove/contains |
         */
+
+        // Methods
+        // FOR HASHMAP
+        /*
+            | Method                   | Description                 |
+            | ------------------------ | --------------------------- |
+            |  put(K key, V value)     | Adds a key-value pair       |
+            |  get(K key)              | Returns value of given key  |
+            |  remove(K key)           | Removes key and value       |
+            |  containsKey(K key)      | Checks if key exists        |
+            |  containsValue(V value)  | Checks if value exists      |
+            |  keySet()                | Returns all keys            |
+            |  values()                | Returns all values          |
+            |  entrySet()              | Returns all key-value pairs |
+        */
+
+        // FOR HASHSET
+        /*
+            | Method          | Description                |
+            | --------------- | -------------------------- |
+            |  add(E e)       | Adds element               |
+            |  remove(E e)    | Removes element            |
+            |  contains(E e)  | Checks if element exists   |
+            |  isEmpty()      | Checks if set is empty     |
+            |  size()         | Returns number of elements |
+            |  clear()        | Removes all elements       |
+        */
     }    
 }
