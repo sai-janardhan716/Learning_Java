@@ -57,5 +57,26 @@ public class HashMapHashSet {
             |  size()         | Returns number of elements |
             |  clear()        | Removes all elements       |
         */
+
+        // Example for HashMap
+        HashMap<Integer, String> map = new HashMap<>();
+        map.put(1, "Apple");
+        map.put(2, "Banana");
+        map.put(3, "Orange");
+        System.out.println("HashMap: " + map);
+        System.out.println("Value for key 2: " + map.get(2));
+        map.remove(3);
+        System.out.println("After removing key 3: " + map);
+
+        // Example for HashSet
+        HashSet<String> set = new HashSet<>();
+        set.add("Java");
+        set.add("Python");
+        set.add("C++");
+        set.add("Java Script");
+        System.out.println("HashSet: " + set);
+        set.remove("C++");
+        System.out.println("After removal: " + set);
+        System.out.println("Contains Java? " + set.contains("Java"));
     }    
 }
