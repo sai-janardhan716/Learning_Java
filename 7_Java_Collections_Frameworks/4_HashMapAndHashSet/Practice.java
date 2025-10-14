@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Arrays;
 public class Practice {
     public static void main(String[] args) {
         // Problems
@@ -67,5 +68,17 @@ public class Practice {
                 System.out.println(name + " scored: " + marks.get(name));
             else
                 System.out.println("Student not found");
+
+            // 4)
+            Integer[] arr1 = {1, 2, 3, 4};
+            Integer[] arr2 = {3, 4, 5, 6};
+            HashSet<Integer> set1 = new HashSet<>(Arrays.asList(arr1));
+            HashSet<Integer> set2 = new HashSet<>(Arrays.asList(arr2));
+            HashSet<Integer> union = new HashSet<>(set1);
+            union.addAll(set2);
+            System.out.println("Union: " + union);
+            HashSet<Integer> intersection = new HashSet<>(set1);
+            intersection.retainAll(set2);
+            System.out.println("Intersection: " + intersection);
     }    
 }
