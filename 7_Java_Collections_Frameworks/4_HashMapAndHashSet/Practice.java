@@ -1,5 +1,6 @@
 public class Practice {
     public static void main(String[] args) {
+        // Problems
         /* 
             1) WordFrequency
             • Create an array of strings (words).
