@@ -54,5 +54,18 @@ public class Practice {
                 }
             }
             if(!found) System.out.println("No duplicates found.");
+
+            // 3)
+            HashMap<String, Integer> marks = new HashMap<>();
+            marks.put("Ganesh", 85);
+            marks.put("Sai", 90);
+            marks.put("Janardhan", 75);
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter student name: ");
+            String name = sc.nextLine();
+            if(marks.containsKey(name))
+                System.out.println(name + " scored: " + marks.get(name));
+            else
+                System.out.println("Student not found");
     }    
 }
