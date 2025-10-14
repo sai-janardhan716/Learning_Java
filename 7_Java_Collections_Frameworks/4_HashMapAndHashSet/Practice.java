@@ -80,5 +80,17 @@ public class Practice {
             HashSet<Integer> intersection = new HashSet<>(set1);
             intersection.retainAll(set2);
             System.out.println("Intersection: " + intersection);
+
+            // 5)
+            System.out.print("Enter a string: ");
+            String str = sc.nextLine();
+            HashMap<Character, Integer> freq = new HashMap<>();
+            for(char c : str.toCharArray()){
+                freq.put(c, freq.getOrDefault(c, 0) + 1);
+            }
+            for(char c : freq.keySet()){
+                System.out.println(c + " : " + freq.get(c));
+            }
+            sc.close();
     }    
 }
