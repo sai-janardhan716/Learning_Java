@@ -41,5 +41,18 @@ public class Practice {
             for(String key : map.keySet()){
                 System.out.println(key + " : " + map.get(key));
             }
+
+            // 2)
+            int[] arr = {1, 2, 3, 4, 2, 5};
+            HashSet<Integer> set = new HashSet<>();
+            boolean found = false;
+            for(int num : arr){
+                if(!set.add(num)){
+                    System.out.println("Duplicate found: " + num);
+                    found = true;
+                    break;
+                }
+            }
+            if(!found) System.out.println("No duplicates found.");
     }    
 }
