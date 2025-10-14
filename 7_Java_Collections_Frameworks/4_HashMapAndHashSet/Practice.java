@@ -1,0 +1,96 @@
+import java.util.*;
+import java.util.Arrays;
+public class Practice {
+    public static void main(String[] args) {
+        // Problems
+        /* 
+            1) WordFrequency
+            • Create an array of strings (words).
+            • Use a HashMap to count how many times each word appears.
+            • Print each word and its frequency.
+
+            2) DuplicateCheck
+            • Create an array of integers.
+            • Use a HashSet to check if there are any duplicates.
+            • If a duplicate is found, display which number is repeated.
+
+            3) StudentMarks
+            • Create a HashMap to store student names as keys and marks as values.
+            • Allow user to search for a student by name and print their marks.
+            • If the student name is not found, display "Student not found".
+
+            4) UnionIntersection
+            • Create two integer arrays.
+            • Use HashSet to find:
+              - Union (all unique elements)
+              - Intersection (common elements)
+            • Display both results.
+
+            5) CharFrequency
+            • Read a string from the user.
+            • Use a HashMap to count the frequency of each character.
+            • Print each character along with its count.
+        */
+
+        // Solutions
+            // 1)
+            String[] words = {"apple", "banana", "apple", "orange", "banana", "apple"};
+            HashMap<String, Integer> map = new HashMap<>();
+            for(String w : words){
+                map.put(w, map.getOrDefault(w, 0) + 1);
+            }
+            for(String key : map.keySet()){
+                System.out.println(key + " : " + map.get(key));
+            }
+
+            // 2)
+            int[] arr = {1, 2, 3, 4, 2, 5};
+            HashSet<Integer> set = new HashSet<>();
+            boolean found = false;
+            for(int num : arr){
+                if(!set.add(num)){
+                    System.out.println("Duplicate found: " + num);
+                    found = true;
+                    break;
+                }
+            }
+            if(!found) System.out.println("No duplicates found.");
+
+            // 3)
+            HashMap<String, Integer> marks = new HashMap<>();
+            marks.put("Ganesh", 85);
+            marks.put("Sai", 90);
+            marks.put("Janardhan", 75);
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter student name: ");
+            String name = sc.nextLine();
+            if(marks.containsKey(name))
+                System.out.println(name + " scored: " + marks.get(name));
+            else
+                System.out.println("Student not found");
+
+            // 4)
+            Integer[] arr1 = {1, 2, 3, 4};
+            Integer[] arr2 = {3, 4, 5, 6};
+            HashSet<Integer> set1 = new HashSet<>(Arrays.asList(arr1));
+            HashSet<Integer> set2 = new HashSet<>(Arrays.asList(arr2));
+            HashSet<Integer> union = new HashSet<>(set1);
+            union.addAll(set2);
+            System.out.println("Union: " + union);
+            HashSet<Integer> intersection = new HashSet<>(set1);
+            intersection.retainAll(set2);
+            System.out.println("Intersection: " + intersection);
+
+            // 5)
+            System.out.print("Enter a string: ");
+            String str = sc.nextLine();
+            HashMap<Character, Integer> freq = new HashMap<>();
+            for(char c : str.toCharArray()){
+                freq.put(c, freq.getOrDefault(c, 0) + 1);
+            }
+            for(char c : freq.keySet()){
+                System.out.println(c + " : " + freq.get(c));
+            }
+            sc.close();
+    }    
+}
