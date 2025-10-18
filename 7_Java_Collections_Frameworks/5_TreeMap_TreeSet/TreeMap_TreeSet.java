@@ -64,5 +64,12 @@ public class TreeMap_TreeSet{
             keySet()                 -> Returns all keys.
             values()                 -> Returns all values.
         */
+
+        // Example
+        TreeMap<Integer, String> map = new TreeMap<>();
+        map.put(3, "Banana");
+        map.put(1, "Apple");
+        map.put(2, "Mango");
+        System.out.println("TreeMap: " + map);
     }
 }
