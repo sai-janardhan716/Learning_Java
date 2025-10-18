@@ -12,6 +12,9 @@ public class TreeMap_TreeSet{
             -> It does not allow duplicate values.
             -> Elements must be Comparable (e.g., Integer, String).
             -> It does not allow null elements.
+
+            // Syntax
+            TreeSet<Type> setName = new TreeSet<>();
         */
     }
 }
