@@ -1,3 +1,4 @@
+import java.util.*;
 public class TreeMap_TreeSet{
     public static void main(String[] args) {
         /*
@@ -16,5 +17,13 @@ public class TreeMap_TreeSet{
             // Syntax
             TreeSet<Type> setName = new TreeSet<>();
         */
+
+        // Example
+        TreeSet<Integer> numbers = new TreeSet<>();
+        numbers.add(50);
+        numbers.add(10);
+        numbers.add(30);
+        numbers.add(10);   // duplicate ignored
+        System.out.println("TreeSet: " + numbers);
     }
 }
