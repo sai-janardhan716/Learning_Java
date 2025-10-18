@@ -46,6 +46,9 @@ public class TreeMap_TreeSet{
             -> Keys are stored in ascending (natural) order by default.
             -> It does not allow duplicate keys.
             -> It does not allow null keys (throws NullPointerException), but allows null values.
+
+            // Syntax
+            TreeMap<KeyType, ValueType> mapName = new TreeMap<>();
         */
     }
 }
