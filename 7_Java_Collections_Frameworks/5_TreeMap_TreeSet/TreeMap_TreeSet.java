@@ -38,5 +38,14 @@ public class TreeMap_TreeSet{
         numbers.add(30);
         numbers.add(10);   // duplicate ignored
         System.out.println("TreeSet: " + numbers);
+
+
+        // TreeMap
+        /*
+            -> TreeMap is used to store key-value pairs in a sorted order based on keys.
+            -> Keys are stored in ascending (natural) order by default.
+            -> It does not allow duplicate keys.
+            -> It does not allow null keys (throws NullPointerException), but allows null values.
+        */
     }
 }
