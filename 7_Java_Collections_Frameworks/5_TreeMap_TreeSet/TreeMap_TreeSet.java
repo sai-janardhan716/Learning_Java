@@ -49,6 +49,20 @@ public class TreeMap_TreeSet{
 
             // Syntax
             TreeMap<KeyType, ValueType> mapName = new TreeMap<>();
+
+            // Explanation:
+            -> Keys are automatically sorted in ascending order.
+            -> Duplicate keys are not allowed.
+            -> Null keys are not supported, but null values are.
+
+            // Common Methods:
+            put(K key, V value)      -> Inserts a key-value pair.
+            get(K key)               -> Returns the value for the given key.
+            remove(K key)            -> Removes the mapping for the key.
+            firstKey()               -> Returns the smallest key.
+            lastKey()                -> Returns the largest key.
+            keySet()                 -> Returns all keys.
+            values()                 -> Returns all values.
         */
     }
 }
