@@ -71,5 +71,22 @@ public class TreeMap_TreeSet{
         map.put(1, "Apple");
         map.put(2, "Mango");
         System.out.println("TreeMap: " + map);
+
+        /* 
+            // Notes:
+            -> TreeSet and TreeMap store elements in sorted (ascending) order.
+            -> Both are slower than HashSet/HashMap because of tree-based sorting.
+            -> Useful when we need sorted, unique data (TreeSet) or sorted key-value pairs (TreeMap).
+
+            // Advantages:
+            -> Automatically maintains sorted order.
+            -> Provides fast retrieval and searching (O(log n)).
+            -> Ensures uniqueness for TreeSet and unique keys for TreeMap.
+
+            // Limitations:
+            -> Slower compared to HashSet/HashMap.
+            -> No null keys (in TreeMap) and no null elements (in TreeSet).
+            -> Elements or keys must be comparable.
+        */
     }
 }
