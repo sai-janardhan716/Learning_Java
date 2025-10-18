@@ -16,6 +16,19 @@ public class TreeMap_TreeSet{
 
             // Syntax
             TreeSet<Type> setName = new TreeSet<>();
+
+            // Explanation:
+            -> The elements are automatically sorted in ascending order.
+            -> Duplicate elements are ignored.
+            -> If you try to add null, it throws NullPointerException.
+
+            // Common Methods:
+            add(E e)          -> Adds an element to the set.
+            remove(E e)       -> Removes the specified element.
+            first()           -> Returns the smallest element.
+            last()            -> Returns the largest element.
+            contains(E e)     -> Checks if element exists.
+            clear()           -> Removes all elements from the set.
         */
 
         // Example
