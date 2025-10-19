@@ -50,5 +50,15 @@ public class Practice {
         System.out.println("Scores: " + scores);
         System.out.println("Lowest: " + scores.first());
         System.out.println("Highest: " + scores.last());
+
+        // 3)
+        TreeMap<Integer, String> students = new TreeMap<>();
+        students.put(103, "Datha");
+        students.put(101, "Sai");
+        students.put(104, "Daya");
+        students.put(102, "Mukesh");
+        System.out.println("Students: " + students);
+        students.remove(103);
+        System.out.println("After removing roll no 103: " + students);
     }
 }
