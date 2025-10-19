@@ -39,5 +39,16 @@ public class Practice {
         names.add("Sai");
         names.add("Ganesh"); // duplicate ignored
         System.out.println("Unique sorted names: " + names);
+
+        // 2)
+        TreeSet<Integer> scores = new TreeSet<>();
+        scores.add(89);
+        scores.add(56);
+        scores.add(98);
+        scores.add(72);
+        scores.add(56);
+        System.out.println("Scores: " + scores);
+        System.out.println("Lowest: " + scores.first());
+        System.out.println("Highest: " + scores.last());
     }
 }
