@@ -60,5 +60,17 @@ public class Practice {
         System.out.println("Students: " + students);
         students.remove(103);
         System.out.println("After removing roll no 103: " + students);
+
+        // 4)
+        TreeMap<String, String> map = new TreeMap<>();
+        map.put("India", "New Delhi");
+        map.put("USA", "Washington DC");
+        map.put("France", "Paris");
+        map.put("Japan", "Tokyo");
+        System.out.println("Capital of India: " + map.get("India"));
+        System.out.println("All countries and capitals:");
+        for (String country : map.keySet()) {
+            System.out.println(country + " -> " + map.get(country));
+        }
     }
 }
