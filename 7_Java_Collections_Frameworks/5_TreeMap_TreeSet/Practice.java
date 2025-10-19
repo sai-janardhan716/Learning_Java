@@ -1,3 +1,4 @@
+import java.util.*;
 public class Practice {
     public static void main(String[] args) {
         // Problems
@@ -28,5 +29,15 @@ public class Practice {
             • Use a custom Comparator.
             • Add few names and print the TreeSet.
         */
+
+        // Solutions
+        // 1)
+        TreeSet<String> names = new TreeSet<>();
+        names.add("Alapati");
+        names.add("Ganesh");
+        names.add("Datha");
+        names.add("Sai");
+        names.add("Ganesh"); // duplicate ignored
+        System.out.println("Unique sorted names: " + names);
     }
 }
