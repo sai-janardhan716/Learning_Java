@@ -72,5 +72,13 @@ public class Practice {
         for (String country : map.keySet()) {
             System.out.println(country + " -> " + map.get(country));
         }
+
+        // 5)
+        TreeSet<String> frndnames = new TreeSet<>(Comparator.reverseOrder());
+        names.add("Sai");
+        names.add("Ganesh");
+        names.add("Datha");
+        names.add("Mukesh");
+        System.out.println("Names in reverse order: " + frndnames);
     }
 }
