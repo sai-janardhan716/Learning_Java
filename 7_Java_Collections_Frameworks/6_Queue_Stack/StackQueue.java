@@ -48,5 +48,15 @@ public class StackQueue {
                 - Printers
                 - Task scheduling
         */
+
+        // Example
+        Queue<String> queue = new LinkedList<>();
+        queue.add("Sai");
+        queue.add("Janardhan");
+        queue.add("Datha");
+        System.out.println("Queue: " + queue);
+        System.out.println("Front element: " + queue.peek());
+        queue.remove(); // removes first element
+        System.out.println("After remove: " + queue);
     }
 }
