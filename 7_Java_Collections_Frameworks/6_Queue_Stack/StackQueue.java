@@ -1,3 +1,4 @@
+import java.util.*;
 public class StackQueue {
     public static void main(String[] args) {
         /*
@@ -18,5 +19,15 @@ public class StackQueue {
                 2) Browser back button,
                 3) Function call stack in Java.
         */
+
+        // Example
+        Stack<Integer> newStack = new Stack<>();
+        newStack.push(10); // Add element
+        newStack.push(20);
+        newStack.push(30);
+        System.out.println("Stack: " + newStack);
+        System.out.println("Top element: " + newStack.peek()); // See top element
+        System.out.println("Removed element: " + newStack.pop()); // Remove top element
+        System.out.println("Stack after pop: " + newStack);
     }
 }
