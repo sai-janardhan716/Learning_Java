@@ -18,6 +18,13 @@ public class StackQueue {
                 1) Undo feature in text editors,
                 2) Browser back button,
                 3) Function call stack in Java.
+
+            // Methods
+            - push(element): Adds an element to the top of stack.
+            - pop(): Removes the top element.
+            - peek(): Returns top element (without removing it).
+            - empty(): Checks if stack is empty or not.
+            - search(element): Finds position of an element from top (1-based).
         */
 
         // Example
