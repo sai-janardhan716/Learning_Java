@@ -47,6 +47,13 @@ public class StackQueue {
                 - Ticket counters
                 - Printers
                 - Task scheduling
+
+            // Methods
+            - add(element): Adds an element to the queue (throws error if full)
+            - offer(element): Adds an element (returns false if full)
+            - remove(): Removes and returns the first element
+            - poll(): Removes first element (returns null if empty)
+            - peek(): Returns first element without removing (null if empty)
         */
 
         // Example
