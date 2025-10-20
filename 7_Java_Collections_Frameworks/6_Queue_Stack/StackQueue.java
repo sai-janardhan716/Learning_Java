@@ -65,5 +65,16 @@ public class StackQueue {
         System.out.println("Front element: " + queue.peek());
         queue.remove(); // removes first element
         System.out.println("After remove: " + queue);
+
+        /*
+            // DIFFERENCE BETWEEN STACK AND QUEUE
+            | Feature        | Stack (LIFO)               | Queue (FIFO)               |
+            |----------------|----------------------------|----------------------------|
+            | Order          | Last In, First Out         | First In, First Out        |
+            | Add at         | Top                        | Rear                       |
+            | Remove from    | Top                        | Front                      |
+            | Use Case       | Undo, recursion, browsers  | Task scheduling, printers  |
+            | Java Class     | java.util.Stack            | java.util.Queue (interface)|
+        */
     }
 }
