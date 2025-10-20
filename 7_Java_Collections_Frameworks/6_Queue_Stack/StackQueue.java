@@ -36,5 +36,17 @@ public class StackQueue {
         System.out.println("Top element: " + newStack.peek()); // See top element
         System.out.println("Removed element: " + newStack.pop()); // Remove top element
         System.out.println("Stack after pop: " + newStack);
+
+        // Queue - First In First Out (FIFO)
+        /*
+            -> Imagine people standing in a line at a movie ticket counter.
+                 - The person who comes first will get the ticket first.
+            -> In programming, Queue follows the same idea:
+                  The element that is added first will be removed first.
+            -> Real-Life Examples:
+                - Ticket counters
+                - Printers
+                - Task scheduling
+        */
     }
 }
