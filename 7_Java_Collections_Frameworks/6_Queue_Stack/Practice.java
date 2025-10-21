@@ -80,5 +80,13 @@ public class Practice {
         else
             System.out.println("Not Balanced");
 
+        // 4)
+        Queue<String> queue = new LinkedList<>();
+        queue.add("A");
+        queue.add("B");
+        queue.add("C");
+        System.out.println("Queue before remove: " + queue);
+        System.out.println("Removed element: " + queue.remove());
+        System.out.println("Queue after remove: " + queue);
     }    
 }
