@@ -52,5 +52,33 @@ public class Practice {
         }
         System.out.println("Original String: "+ str);
         System.out.println("Reversed String: " + rev);
+
+        // 3)
+        System.out.print("Enter parentheses string: ");
+        String input = sc.nextLine();
+        Stack<Character> s = new Stack<>();
+        boolean balanced = true;
+        for(char c : input.toCharArray()){
+            if(c == '(' || c == '{' || c == '['){
+                s.push(c);
+            }else if (c == ')' || c == '}' || c == ']'){
+                if(s.isEmpty()){
+                    balanced = false;
+                    break;
+                }
+                char top = s.pop();
+                if((c == ')' && top != '(')||
+                    (c == '}' && top != '{')||
+                    (c == ']' && top != '[')){
+                    balanced = false;
+                    break;
+                }
+            }
+        }
+        if(balanced && s.isEmpty())
+            System.out.println("Balanced");
+        else
+            System.out.println("Not Balanced");
+
     }    
 }
