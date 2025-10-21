@@ -37,5 +37,20 @@ public class Practice {
         System.out.println("Top element: " + stack.peek());
         System.out.println("Removed element: " + stack.pop());
         System.out.println("Stack after pop: " + stack);
+
+        // 2)
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine();
+        Stack<Character> st = new Stack<>();
+        for(char ch :str.toCharArray()){
+            st.push(ch);
+        }
+        StringBuilder rev=new StringBuilder();
+        while(!st.isEmpty()){
+            rev.append(st.pop());
+        }
+        System.out.println("Original String: "+ str);
+        System.out.println("Reversed String: " + rev);
     }    
 }
