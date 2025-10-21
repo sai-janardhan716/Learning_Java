@@ -1,3 +1,4 @@
+import java.util.*;
 public class Practice {
     public static void main(String[] args) {
         // Problems
@@ -25,5 +26,16 @@ public class Practice {
                • Create a Queue of integers.
                • Use a Stack to reverse all elements in the queue.
         */
+
+        // Solutions
+        // 1)
+        Stack<Integer> stack = new Stack<>();
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        System.out.println("Stack before pop: " + stack);
+        System.out.println("Top element: " + stack.peek());
+        System.out.println("Removed element: " + stack.pop());
+        System.out.println("Stack after pop: " + stack);
     }    
 }
