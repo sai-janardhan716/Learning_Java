@@ -88,5 +88,18 @@ public class Practice {
         System.out.println("Queue before remove: " + queue);
         System.out.println("Removed element: " + queue.remove());
         System.out.println("Queue after remove: " + queue);
+
+        // 5)
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 1; i <= 5; i++) q.add(i);
+        System.out.println("Original Queue: " + q);
+        Stack<Integer> helper = new Stack<>();
+        while(!q.isEmpty()){
+            helper.push(q.remove());
+        }
+        while(!helper.isEmpty()){
+            q.add(helper.pop());
+        }
+        System.out.println("Reversed Queue: " + q);
     }    
 }
