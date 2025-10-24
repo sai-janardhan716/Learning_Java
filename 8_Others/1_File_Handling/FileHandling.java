@@ -99,5 +99,24 @@ public class FileHandling {
             -> Use try-with-resources (Java 7+) for automatic closing:
             try (FileReader fr = new FileReader("file.txt")) { ... }
         */
+        
+        // Common Methods:
+        /*
+            File:
+                • createNewFile()
+                • delete()
+                • exists()
+                • getName()
+                • length()
+
+            FileWriter:
+                • write(String)
+                • append(String)
+                • close()
+
+            FileReader:
+                • read()
+                • close()
+        */
     }    
 }
