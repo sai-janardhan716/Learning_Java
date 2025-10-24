@@ -54,7 +54,7 @@ public class FileHandling {
         // FileWriter fw = new FileWriter("output.txt", true);
 
         // 3) FileReader Class
-        
+
         // -> Used to read text data from files character by character.
         // -> Often combined with BufferedReader for faster reading.
 
@@ -70,6 +70,26 @@ public class FileHandling {
             System.out.println("Error reading file: " + e.getMessage());
         }
 
+        // 4) BufferedReader and BufferedWriter (Optional)
 
+        // -> BufferedReader reads text line by line.
+        // -> BufferedWriter writes efficiently using internal buffering.
+
+        try {
+            BufferedWriter bw = new BufferedWriter(new FileWriter("notes.txt"));
+            bw.write("This is a buffered writer example.");
+            bw.newLine();
+            bw.write("It writes faster than FileWriter.");
+            bw.close();
+
+            BufferedReader br = new BufferedReader(new FileReader("notes.txt"));
+            String line;
+            while ((line = br.readLine()) != null) {
+                System.out.println(line);
+            }
+            br.close();
+        }catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
     }    
 }
