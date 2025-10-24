@@ -1,3 +1,4 @@
+import java.io.*;
 public class FileHandling {
     public static void main(String[] args) {
         // File Handling in java
@@ -9,5 +10,22 @@ public class FileHandling {
                 -> FileWriter
                 -> BufferedReader / BufferedWriter (for efficient reading/writing)
         */
+
+        // File class
+        /*
+            -> Used to represent file or directory paths.
+            -> Helps to check file existence, create new files, and delete them.
+        */
+        // Example
+        try {
+            File f = new File("sample.txt");  // creates file object
+            if (f.createNewFile()) {
+                System.out.println("File created: " + f.getName());
+            } else {
+                System.out.println("File already exists.");
+            }
+        } catch (IOException e) {
+            System.out.println("An error occurred: " + e.getMessage());
+        }
     }    
 }
