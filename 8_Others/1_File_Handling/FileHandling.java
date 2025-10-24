@@ -27,5 +27,12 @@ public class FileHandling {
         } catch (IOException e) {
             System.out.println("An error occurred: " + e.getMessage());
         }
+
+        /*
+            -> createNewFile() -> creates a new empty file if it doesn’t exist.
+            -> exists() -> checks if a file already exists.
+            -> delete() -> deletes a file.
+            -> getName(), getPath(), length() -> give file information.
+        */
     }    
 }
