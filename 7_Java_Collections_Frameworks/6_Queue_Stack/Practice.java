@@ -101,5 +101,6 @@ public class Practice {
             q.add(helper.pop());
         }
         System.out.println("Reversed Queue: " + q);
+        sc.close();
     }    
 }
