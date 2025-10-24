@@ -54,6 +54,7 @@ public class FileHandling {
         // FileWriter fw = new FileWriter("output.txt", true);
 
         // 3) FileReader Class
+        
         // -> Used to read text data from files character by character.
         // -> Often combined with BufferedReader for faster reading.
 
@@ -68,5 +69,7 @@ public class FileHandling {
         } catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());
         }
+
+
     }    
 }
