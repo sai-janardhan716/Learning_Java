@@ -34,5 +34,39 @@ public class FileHandling {
             -> delete() -> deletes a file.
             -> getName(), getPath(), length() -> give file information.
         */
+        // 2) FileWriter Class
+        /*
+            -> Used to write text data to files.
+            -> Writes character data (not binary).
+            -> Overwrites existing content unless opened in append mode.
+        */
+        // Example:
+        try {
+            FileWriter fw = new FileWriter("output.txt");  // overwrite mode
+            fw.write("Hello, Java File Handling!\n");
+            fw.write("This is written using FileWriter.");
+            fw.close();
+            System.out.println("Data written successfully.");
+        } catch (IOException e) {
+            System.out.println("Error writing file: " + e.getMessage());
+        }
+        // -> If we want to append instead of overwrite:
+        // FileWriter fw = new FileWriter("output.txt", true);
+
+        // 3) FileReader Class
+        // -> Used to read text data from files character by character.
+        // -> Often combined with BufferedReader for faster reading.
+
+        // Example:
+        try {
+            FileReader fr = new FileReader("output.txt");
+            int ch;
+            while ((ch = fr.read()) != -1) {      // reads till end of file
+                System.out.print((char) ch);
+            }
+            fr.close();
+        } catch (IOException e) {
+            System.out.println("Error reading file: " + e.getMessage());
+        }
     }    
 }
