@@ -91,5 +91,13 @@ public class FileHandling {
         }catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
+
+        // Key Points
+        /*
+            -> Always close FileReader/FileWriter to release resources.
+            -> Prefer BufferedReader/BufferedWriter for efficiency.
+            -> Use try-with-resources (Java 7+) for automatic closing:
+            try (FileReader fr = new FileReader("file.txt")) { ... }
+        */
     }    
 }
