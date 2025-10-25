@@ -60,9 +60,6 @@ This repository serves as:
   - File Handling 
   - Multithreading (Thread class, Runnable interface)
   - Synchronization in Threads
-  - Lambda Expressions (Java 8 feature)
-  - Streams API (Java 8 feature)
-  - Date & Time API (Java 8+)
   - Generics
 
 ---
